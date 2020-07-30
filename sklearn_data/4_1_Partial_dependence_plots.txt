@@ -1,0 +1,153 @@
+<div class="section" id="partial-dependence-plots">
+<span id="partial-dependence"></span><h1>4.1. Partial dependence plots<a class="headerlink" href="#partial-dependence-plots" title="Permalink to this headline">¶</a></h1>
+<p>Partial dependence plots (PDP) show the dependence between the target
+response <a class="footnote-reference brackets" href="#id2" id="id1">1</a> and a set of ‘target’ features, marginalizing over the values
+of all other features (the ‘complement’ features). Intuitively, we can
+interpret the partial dependence as the expected target response as a
+function of the ‘target’ features.</p>
+<p>Due to the limits of human perception the size of the target feature set
+must be small (usually, one or two) thus the target features are usually
+chosen among the most important features.</p>
+<p>The figure below shows four one-way and one two-way partial dependence plots
+for the California housing dataset, with a <a class="reference internal" href="generated/sklearn.ensemble.GradientBoostingRegressor.html#sklearn.ensemble.GradientBoostingRegressor" title="sklearn.ensemble.GradientBoostingRegressor"><code class="xref py py-class docutils literal notranslate"><span class="pre">GradientBoostingRegressor</span></code></a>:</p>
+<div class="figure align-center">
+<a class="reference external image-reference" href="../auto_examples/inspection/plot_partial_dependence.html"><img alt="../_images/sphx_glr_plot_partial_dependence_0021.png" src="../_images/sphx_glr_plot_partial_dependence_0021.png" style="width: 448.0px; height: 336.0px;"/></a>
+</div>
+<p>One-way PDPs tell us about the interaction between the target response and
+the target feature (e.g. linear, non-linear). The upper left plot in the
+above figure shows the effect of the median income in a district on the
+median house price; we can clearly see a linear relationship among them. Note
+that PDPs assume that the target features are independent from the complement
+features, and this assumption is often violated in practice.</p>
+<p>PDPs with two target features show the interactions among the two features.
+For example, the two-variable PDP in the above figure shows the dependence
+of median house price on joint values of house age and average occupants per
+household. We can clearly see an interaction between the two features: for
+an average occupancy greater than two, the house price is nearly independent of
+the house age, whereas for values less than 2 there is a strong dependence
+on age.</p>
+<p>The <a class="reference internal" href="classes.html#module-sklearn.inspection" title="sklearn.inspection"><code class="xref py py-mod docutils literal notranslate"><span class="pre">sklearn.inspection</span></code></a> module provides a convenience function
+<a class="reference internal" href="generated/sklearn.inspection.plot_partial_dependence.html#sklearn.inspection.plot_partial_dependence" title="sklearn.inspection.plot_partial_dependence"><code class="xref py py-func docutils literal notranslate"><span class="pre">plot_partial_dependence</span></code></a> to create one-way and two-way partial
+dependence plots. In the below example we show how to create a grid of
+partial dependence plots: two one-way PDPs for the features <code class="docutils literal notranslate"><span class="pre">0</span></code> and <code class="docutils literal notranslate"><span class="pre">1</span></code>
+and a two-way PDP between the two features:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">make_hastie_10_2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">GradientBoostingClassifier</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn.inspection</span> <span class="kn">import</span> <span class="n">plot_partial_dependence</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">make_hastie_10_2</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">clf</span> <span class="o">=</span> <span class="n">GradientBoostingClassifier</span><span class="p">(</span><span class="n">n_estimators</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">learning_rate</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">max_depth</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">features</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plot_partial_dependence</span><span class="p">(</span><span class="n">clf</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">features</span><span class="p">)</span> 
+</pre></div>
+</div>
+<p>You can access the newly created figure and Axes objects using <code class="docutils literal notranslate"><span class="pre">plt.gcf()</span></code>
+and <code class="docutils literal notranslate"><span class="pre">plt.gca()</span></code>.</p>
+<p>For multi-class classification, you need to set the class label for which
+the PDPs should be created via the <code class="docutils literal notranslate"><span class="pre">target</span></code> argument:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">load_iris</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">iris</span> <span class="o">=</span> <span class="n">load_iris</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mc_clf</span> <span class="o">=</span> <span class="n">GradientBoostingClassifier</span><span class="p">(</span><span class="n">n_estimators</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">max_depth</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">iris</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="n">iris</span><span class="o">.</span><span class="n">target</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">features</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">)]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plot_partial_dependence</span><span class="p">(</span><span class="n">mc_clf</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">features</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> 
+</pre></div>
+</div>
+<p>The same parameter <code class="docutils literal notranslate"><span class="pre">target</span></code> is used to specify the target in multi-output
+regression settings.</p>
+<p>If you need the raw values of the partial dependence function rather than
+the plots, you can use the
+<a class="reference internal" href="generated/sklearn.inspection.partial_dependence.html#sklearn.inspection.partial_dependence" title="sklearn.inspection.partial_dependence"><code class="xref py py-func docutils literal notranslate"><span class="pre">sklearn.inspection.partial_dependence</span></code></a> function:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn.inspection</span> <span class="kn">import</span> <span class="n">partial_dependence</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pdp</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">partial_dependence</span><span class="p">(</span><span class="n">clf</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pdp</span>
+<span class="go">array([[ 2.466...,  2.466..., ...</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">axes</span>
+<span class="go">[array([-1.624..., -1.592..., ...</span>
+</pre></div>
+</div>
+<p>The values at which the partial dependence should be evaluated are directly
+generated from <code class="docutils literal notranslate"><span class="pre">X</span></code>. For 2-way partial dependence, a 2D-grid of values is
+generated. The <code class="docutils literal notranslate"><span class="pre">values</span></code> field returned by
+<a class="reference internal" href="generated/sklearn.inspection.partial_dependence.html#sklearn.inspection.partial_dependence" title="sklearn.inspection.partial_dependence"><code class="xref py py-func docutils literal notranslate"><span class="pre">sklearn.inspection.partial_dependence</span></code></a> gives the actual values
+used in the grid for each target feature. They also correspond to the axis
+of the plots.</p>
+<div class="section" id="mathematical-definition">
+<h2>4.1.1. Mathematical Definition<a class="headerlink" href="#mathematical-definition" title="Permalink to this headline">¶</a></h2>
+<p>Let <span class="math notranslate nohighlight">\(X_S\)</span> be the set of target features (i.e. the <code class="docutils literal notranslate"><span class="pre">features</span></code> parameter)
+and let <span class="math notranslate nohighlight">\(X_C\)</span> be its complement.</p>
+<p>The partial dependence of the response <span class="math notranslate nohighlight">\(f\)</span> at a point <span class="math notranslate nohighlight">\(x_S\)</span> is
+defined as:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}pd_{X_S}(x_S) &amp;\overset{def}{=} \mathbb{E}_{X_C}\left[ f(x_S, X_C) \right]\\
+              &amp;= \int f(x_S, x_C) p(x_C) dx_C,\end{split}\]</div>
+<p>where <span class="math notranslate nohighlight">\(f(x_S, x_C)\)</span> is the response function (<a class="reference internal" href="../glossary.html#term-predict"><span class="xref std std-term">predict</span></a>,
+<a class="reference internal" href="../glossary.html#term-predict-proba"><span class="xref std std-term">predict_proba</span></a> or <a class="reference internal" href="../glossary.html#term-decision-function"><span class="xref std std-term">decision_function</span></a>) for a given sample whose
+values are defined by <span class="math notranslate nohighlight">\(x_S\)</span> for the features in <span class="math notranslate nohighlight">\(X_S\)</span>, and by
+<span class="math notranslate nohighlight">\(x_C\)</span> for the features in <span class="math notranslate nohighlight">\(X_C\)</span>. Note that <span class="math notranslate nohighlight">\(x_S\)</span> and
+<span class="math notranslate nohighlight">\(x_C\)</span> may be tuples.</p>
+<p>Computing this integral for various values of <span class="math notranslate nohighlight">\(x_S\)</span> produces a plot as
+above.</p>
+</div>
+<div class="section" id="computation-methods">
+<h2>4.1.2. Computation methods<a class="headerlink" href="#computation-methods" title="Permalink to this headline">¶</a></h2>
+<p>There are two main methods to approximate the integral above, namely the
+‘brute’ and ‘recursion’ methods. The <code class="docutils literal notranslate"><span class="pre">method</span></code> parameter controls which method
+to use.</p>
+<p>The ‘brute’ method is a generic method that works with any estimator. It
+approximates the above integral by computing an average over the data <code class="docutils literal notranslate"><span class="pre">X</span></code>:</p>
+<div class="math notranslate nohighlight">
+\[pd_{X_S}(x_S) \approx \frac{1}{n_\text{samples}} \sum_{i=1}^n f(x_S, x_C^{(i)}),\]</div>
+<p>where <span class="math notranslate nohighlight">\(x_C^{(i)}\)</span> is the value of the i-th sample for the features in
+<span class="math notranslate nohighlight">\(X_C\)</span>. For each value of <span class="math notranslate nohighlight">\(x_S\)</span>, this method requires a full pass
+over the dataset <code class="docutils literal notranslate"><span class="pre">X</span></code> which is computationally intensive.</p>
+<p>The ‘recursion’ method is faster than the ‘brute’ method, but it is only
+supported by some tree-based estimators. It is computed as follows. For a
+given point <span class="math notranslate nohighlight">\(x_S\)</span>, a weighted tree traversal is performed: if a split
+node involves a ‘target’ feature, the corresponding left or right branch is
+followed; otherwise both branches are followed, each branch being weighted
+by the fraction of training samples that entered that branch. Finally, the
+partial dependence is given by a weighted average of all the visited leaves
+values.</p>
+<p>With the ‘brute’ method, the parameter <code class="docutils literal notranslate"><span class="pre">X</span></code> is used both for generating the
+grid of values <span class="math notranslate nohighlight">\(x_S\)</span> and the complement feature values <span class="math notranslate nohighlight">\(x_C\)</span>.
+However with the ‘recursion’ method, <code class="docutils literal notranslate"><span class="pre">X</span></code> is only used for the grid values:
+implicitly, the <span class="math notranslate nohighlight">\(x_C\)</span> values are those of the training data.</p>
+<p>By default, the ‘recursion’ method is used on tree-based estimators that
+support it, and ‘brute’ is used for the rest.</p>
+<div class="admonition note" id="pdp-method-differences">
+<p class="admonition-title">Note</p>
+<p>While both methods should be close in general, they might differ in some
+specific settings. The ‘brute’ method assumes the existence of the
+data points <span class="math notranslate nohighlight">\((x_S, x_C^{(i)})\)</span>. When the features are correlated,
+such artificial samples may have a very low probability mass. The ‘brute’
+and ‘recursion’ methods will likely disagree regarding the value of the
+partial dependence, because they will treat these unlikely
+samples differently. Remember, however, that the primary assumption for
+interpreting PDPs is that the features should be independent.</p>
+</div>
+<p class="rubric">Footnotes</p>
+<dl class="footnote brackets">
+<dt class="label" id="id2"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>For classification, the target response may be the probability of a
+class (the positive class for binary classification), or the decision
+function.</p>
+</dd>
+</dl>
+<div class="topic">
+<p class="topic-title">Examples:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="../auto_examples/inspection/plot_partial_dependence.html#sphx-glr-auto-examples-inspection-plot-partial-dependence-py"><span class="std std-ref">Partial Dependence Plots</span></a></p></li>
+</ul>
+</div>
+<div class="topic">
+<p class="topic-title">References</p>
+<p>T. Hastie, R. Tibshirani and J. Friedman, <a class="reference external" href="https://web.stanford.edu/~hastie/ElemStatLearn//">The Elements of
+Statistical Learning</a>,
+Second Edition, Section 10.13.2, Springer, 2009.</p>
+<p>C. Molnar, <a class="reference external" href="https://christophm.github.io/interpretable-ml-book/">Interpretable Machine Learning</a>, Section 5.1, 2019.</p>
+</div>
+</div>
+</div>

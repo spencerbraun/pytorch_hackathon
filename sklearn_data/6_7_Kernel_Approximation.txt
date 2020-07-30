@@ -1,0 +1,167 @@
+<div class="section" id="kernel-approximation">
+<span id="id1"></span><h1>6.7. Kernel Approximation<a class="headerlink" href="#kernel-approximation" title="Permalink to this headline">¶</a></h1>
+<p>This submodule contains functions that approximate the feature mappings that
+correspond to certain kernels, as they are used for example in support vector
+machines (see <a class="reference internal" href="svm.html#svm"><span class="std std-ref">Support Vector Machines</span></a>).
+The following feature functions perform non-linear transformations of the
+input, which can serve as a basis for linear classification or other
+algorithms.</p>
+<p>The advantage of using approximate explicit feature maps compared to the
+<a class="reference external" href="https://en.wikipedia.org/wiki/Kernel_trick">kernel trick</a>,
+which makes use of feature maps implicitly, is that explicit mappings
+can be better suited for online learning and can significantly reduce the cost
+of learning with very large datasets.
+Standard kernelized SVMs do not scale well to large datasets, but using an
+approximate kernel map it is possible to use much more efficient linear SVMs.
+In particular, the combination of kernel map approximations with
+<a class="reference internal" href="generated/sklearn.linear_model.SGDClassifier.html#sklearn.linear_model.SGDClassifier" title="sklearn.linear_model.SGDClassifier"><code class="xref py py-class docutils literal notranslate"><span class="pre">SGDClassifier</span></code></a> can make non-linear learning on large datasets possible.</p>
+<p>Since there has not been much empirical work using approximate embeddings, it
+is advisable to compare results against exact kernel methods when possible.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="linear_model.html#polynomial-regression"><span class="std std-ref">Polynomial regression: extending linear models with basis functions</span></a> for an exact polynomial transformation.</p>
+</div>
+<div class="section" id="nystroem-method-for-kernel-approximation">
+<span id="nystroem-kernel-approx"></span><h2>6.7.1. Nystroem Method for Kernel Approximation<a class="headerlink" href="#nystroem-method-for-kernel-approximation" title="Permalink to this headline">¶</a></h2>
+<p>The Nystroem method, as implemented in <a class="reference internal" href="generated/sklearn.kernel_approximation.Nystroem.html#sklearn.kernel_approximation.Nystroem" title="sklearn.kernel_approximation.Nystroem"><code class="xref py py-class docutils literal notranslate"><span class="pre">Nystroem</span></code></a> is a general method
+for low-rank approximations of kernels. It achieves this by essentially subsampling
+the data on which the kernel is evaluated.
+By default <a class="reference internal" href="generated/sklearn.kernel_approximation.Nystroem.html#sklearn.kernel_approximation.Nystroem" title="sklearn.kernel_approximation.Nystroem"><code class="xref py py-class docutils literal notranslate"><span class="pre">Nystroem</span></code></a> uses the <code class="docutils literal notranslate"><span class="pre">rbf</span></code> kernel, but it can use any
+kernel function or a precomputed kernel matrix.
+The number of samples used - which is also the dimensionality of the features computed -
+is given by the parameter <code class="docutils literal notranslate"><span class="pre">n_components</span></code>.</p>
+</div>
+<div class="section" id="radial-basis-function-kernel">
+<span id="rbf-kernel-approx"></span><h2>6.7.2. Radial Basis Function Kernel<a class="headerlink" href="#radial-basis-function-kernel" title="Permalink to this headline">¶</a></h2>
+<p>The <a class="reference internal" href="generated/sklearn.kernel_approximation.RBFSampler.html#sklearn.kernel_approximation.RBFSampler" title="sklearn.kernel_approximation.RBFSampler"><code class="xref py py-class docutils literal notranslate"><span class="pre">RBFSampler</span></code></a> constructs an approximate mapping for the radial basis
+function kernel, also known as <em>Random Kitchen Sinks</em> <a class="reference internal" href="#rr2007" id="id2"><span>[RR2007]</span></a>. This
+transformation can be used to explicitly model a kernel map, prior to applying
+a linear algorithm, for example a linear SVM:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn.kernel_approximation</span> <span class="kn">import</span> <span class="n">RBFSampler</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">SGDClassifier</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">X</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">rbf_feature</span> <span class="o">=</span> <span class="n">RBFSampler</span><span class="p">(</span><span class="n">gamma</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">X_features</span> <span class="o">=</span> <span class="n">rbf_feature</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">clf</span> <span class="o">=</span> <span class="n">SGDClassifier</span><span class="p">(</span><span class="n">max_iter</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_features</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="go">SGDClassifier(max_iter=5)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">clf</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">X_features</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="go">1.0</span>
+</pre></div>
+</div>
+<p>The mapping relies on a Monte Carlo approximation to the
+kernel values. The <code class="docutils literal notranslate"><span class="pre">fit</span></code> function performs the Monte Carlo sampling, whereas
+the <code class="docutils literal notranslate"><span class="pre">transform</span></code> method performs the mapping of the data.  Because of the
+inherent randomness of the process, results may vary between different calls to
+the <code class="docutils literal notranslate"><span class="pre">fit</span></code> function.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">fit</span></code> function takes two arguments:
+<code class="docutils literal notranslate"><span class="pre">n_components</span></code>, which is the target dimensionality of the feature transform,
+and <code class="docutils literal notranslate"><span class="pre">gamma</span></code>, the parameter of the RBF-kernel.  A higher <code class="docutils literal notranslate"><span class="pre">n_components</span></code> will
+result in a better approximation of the kernel and will yield results more
+similar to those produced by a kernel SVM. Note that “fitting” the feature
+function does not actually depend on the data given to the <code class="docutils literal notranslate"><span class="pre">fit</span></code> function.
+Only the dimensionality of the data is used.
+Details on the method can be found in <a class="reference internal" href="#rr2007" id="id3"><span>[RR2007]</span></a>.</p>
+<p>For a given value of <code class="docutils literal notranslate"><span class="pre">n_components</span></code> <a class="reference internal" href="generated/sklearn.kernel_approximation.RBFSampler.html#sklearn.kernel_approximation.RBFSampler" title="sklearn.kernel_approximation.RBFSampler"><code class="xref py py-class docutils literal notranslate"><span class="pre">RBFSampler</span></code></a> is often less accurate
+as <a class="reference internal" href="generated/sklearn.kernel_approximation.Nystroem.html#sklearn.kernel_approximation.Nystroem" title="sklearn.kernel_approximation.Nystroem"><code class="xref py py-class docutils literal notranslate"><span class="pre">Nystroem</span></code></a>. <a class="reference internal" href="generated/sklearn.kernel_approximation.RBFSampler.html#sklearn.kernel_approximation.RBFSampler" title="sklearn.kernel_approximation.RBFSampler"><code class="xref py py-class docutils literal notranslate"><span class="pre">RBFSampler</span></code></a> is cheaper to compute, though, making
+use of larger feature spaces more efficient.</p>
+<div class="figure align-center" id="id8">
+<a class="reference external image-reference" href="../auto_examples/miscellaneous/plot_kernel_approximation.html"><img alt="../_images/sphx_glr_plot_kernel_approximation_0021.png" src="../_images/sphx_glr_plot_kernel_approximation_0021.png" style="width: 900.0px; height: 375.0px;"/></a>
+<p class="caption"><span class="caption-text">Comparing an exact RBF kernel (left) with the approximation (right)</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+<div class="topic">
+<p class="topic-title">Examples:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="../auto_examples/miscellaneous/plot_kernel_approximation.html#sphx-glr-auto-examples-miscellaneous-plot-kernel-approximation-py"><span class="std std-ref">Explicit feature map approximation for RBF kernels</span></a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="additive-chi-squared-kernel">
+<span id="additive-chi-kernel-approx"></span><h2>6.7.3. Additive Chi Squared Kernel<a class="headerlink" href="#additive-chi-squared-kernel" title="Permalink to this headline">¶</a></h2>
+<p>The additive chi squared kernel is a kernel on histograms, often used in computer vision.</p>
+<p>The additive chi squared kernel as used here is given by</p>
+<div class="math notranslate nohighlight">
+\[k(x, y) = \sum_i \frac{2x_iy_i}{x_i+y_i}\]</div>
+<p>This is not exactly the same as <code class="xref py py-func docutils literal notranslate"><span class="pre">sklearn.metrics.additive_chi2_kernel</span></code>.
+The authors of <a class="reference internal" href="#vz2010" id="id4"><span>[VZ2010]</span></a> prefer the version above as it is always positive
+definite.
+Since the kernel is additive, it is possible to treat all components
+<span class="math notranslate nohighlight">\(x_i\)</span> separately for embedding. This makes it possible to sample
+the Fourier transform in regular intervals, instead of approximating
+using Monte Carlo sampling.</p>
+<p>The class <a class="reference internal" href="generated/sklearn.kernel_approximation.AdditiveChi2Sampler.html#sklearn.kernel_approximation.AdditiveChi2Sampler" title="sklearn.kernel_approximation.AdditiveChi2Sampler"><code class="xref py py-class docutils literal notranslate"><span class="pre">AdditiveChi2Sampler</span></code></a> implements this component wise
+deterministic sampling. Each component is sampled <span class="math notranslate nohighlight">\(n\)</span> times, yielding
+<span class="math notranslate nohighlight">\(2n+1\)</span> dimensions per input dimension (the multiple of two stems
+from the real and complex part of the Fourier transform).
+In the literature, <span class="math notranslate nohighlight">\(n\)</span> is usually chosen to be 1 or 2, transforming
+the dataset to size <code class="docutils literal notranslate"><span class="pre">n_samples</span> <span class="pre">*</span> <span class="pre">5</span> <span class="pre">*</span> <span class="pre">n_features</span></code> (in the case of <span class="math notranslate nohighlight">\(n=2\)</span>).</p>
+<p>The approximate feature map provided by <a class="reference internal" href="generated/sklearn.kernel_approximation.AdditiveChi2Sampler.html#sklearn.kernel_approximation.AdditiveChi2Sampler" title="sklearn.kernel_approximation.AdditiveChi2Sampler"><code class="xref py py-class docutils literal notranslate"><span class="pre">AdditiveChi2Sampler</span></code></a> can be combined
+with the approximate feature map provided by <a class="reference internal" href="generated/sklearn.kernel_approximation.RBFSampler.html#sklearn.kernel_approximation.RBFSampler" title="sklearn.kernel_approximation.RBFSampler"><code class="xref py py-class docutils literal notranslate"><span class="pre">RBFSampler</span></code></a> to yield an approximate
+feature map for the exponentiated chi squared kernel.
+See the <a class="reference internal" href="#vz2010" id="id5"><span>[VZ2010]</span></a> for details and <a class="reference internal" href="#vvz2010" id="id6"><span>[VVZ2010]</span></a> for combination with the <a class="reference internal" href="generated/sklearn.kernel_approximation.RBFSampler.html#sklearn.kernel_approximation.RBFSampler" title="sklearn.kernel_approximation.RBFSampler"><code class="xref py py-class docutils literal notranslate"><span class="pre">RBFSampler</span></code></a>.</p>
+</div>
+<div class="section" id="skewed-chi-squared-kernel">
+<span id="skewed-chi-kernel-approx"></span><h2>6.7.4. Skewed Chi Squared Kernel<a class="headerlink" href="#skewed-chi-squared-kernel" title="Permalink to this headline">¶</a></h2>
+<p>The skewed chi squared kernel is given by:</p>
+<div class="math notranslate nohighlight">
+\[k(x,y) = \prod_i \frac{2\sqrt{x_i+c}\sqrt{y_i+c}}{x_i + y_i + 2c}\]</div>
+<p>It has properties that are similar to the exponentiated chi squared kernel
+often used in computer vision, but allows for a simple Monte Carlo
+approximation of the feature map.</p>
+<p>The usage of the <a class="reference internal" href="generated/sklearn.kernel_approximation.SkewedChi2Sampler.html#sklearn.kernel_approximation.SkewedChi2Sampler" title="sklearn.kernel_approximation.SkewedChi2Sampler"><code class="xref py py-class docutils literal notranslate"><span class="pre">SkewedChi2Sampler</span></code></a> is the same as the usage described
+above for the <a class="reference internal" href="generated/sklearn.kernel_approximation.RBFSampler.html#sklearn.kernel_approximation.RBFSampler" title="sklearn.kernel_approximation.RBFSampler"><code class="xref py py-class docutils literal notranslate"><span class="pre">RBFSampler</span></code></a>. The only difference is in the free
+parameter, that is called <span class="math notranslate nohighlight">\(c\)</span>.
+For a motivation for this mapping and the mathematical details see <a class="reference internal" href="#ls2010" id="id7"><span>[LS2010]</span></a>.</p>
+</div>
+<div class="section" id="mathematical-details">
+<h2>6.7.5. Mathematical Details<a class="headerlink" href="#mathematical-details" title="Permalink to this headline">¶</a></h2>
+<p>Kernel methods like support vector machines or kernelized
+PCA rely on a property of reproducing kernel Hilbert spaces.
+For any positive definite kernel function <span class="math notranslate nohighlight">\(k\)</span> (a so called Mercer kernel),
+it is guaranteed that there exists a mapping <span class="math notranslate nohighlight">\(\phi\)</span>
+into a Hilbert space <span class="math notranslate nohighlight">\(\mathcal{H}\)</span>, such that</p>
+<div class="math notranslate nohighlight">
+\[k(x,y) = \langle \phi(x), \phi(y) \rangle\]</div>
+<p>Where <span class="math notranslate nohighlight">\(\langle \cdot, \cdot \rangle\)</span> denotes the inner product in the
+Hilbert space.</p>
+<p>If an algorithm, such as a linear support vector machine or PCA,
+relies only on the scalar product of data points <span class="math notranslate nohighlight">\(x_i\)</span>, one may use
+the value of <span class="math notranslate nohighlight">\(k(x_i, x_j)\)</span>, which corresponds to applying the algorithm
+to the mapped data points <span class="math notranslate nohighlight">\(\phi(x_i)\)</span>.
+The advantage of using <span class="math notranslate nohighlight">\(k\)</span> is that the mapping <span class="math notranslate nohighlight">\(\phi\)</span> never has
+to be calculated explicitly, allowing for arbitrary large
+features (even infinite).</p>
+<p>One drawback of kernel methods is, that it might be necessary
+to store many kernel values <span class="math notranslate nohighlight">\(k(x_i, x_j)\)</span> during optimization.
+If a kernelized classifier is applied to new data <span class="math notranslate nohighlight">\(y_j\)</span>,
+<span class="math notranslate nohighlight">\(k(x_i, y_j)\)</span> needs to be computed to make predictions,
+possibly for many different <span class="math notranslate nohighlight">\(x_i\)</span> in the training set.</p>
+<p>The classes in this submodule allow to approximate the embedding
+<span class="math notranslate nohighlight">\(\phi\)</span>, thereby working explicitly with the representations
+<span class="math notranslate nohighlight">\(\phi(x_i)\)</span>, which obviates the need to apply the kernel
+or store training examples.</p>
+<div class="topic">
+<p class="topic-title">References:</p>
+<dl class="citation">
+<dt class="label" id="rr2007"><span class="brackets">RR2007</span><span class="fn-backref">(<a href="#id2">1</a>,<a href="#id3">2</a>)</span></dt>
+<dd><p><a class="reference external" href="https://www.robots.ox.ac.uk/~vgg/rg/papers/randomfeatures.pdf">“Random features for large-scale kernel machines”</a>
+Rahimi, A. and Recht, B. - Advances in neural information processing 2007,</p>
+</dd>
+<dt class="label" id="ls2010"><span class="brackets"><a class="fn-backref" href="#id7">LS2010</a></span></dt>
+<dd><p><a class="reference external" href="http://www.maths.lth.se/matematiklth/personal/sminchis/papers/lis_dagm10.pdf">“Random Fourier approximations for skewed multiplicative histogram kernels”</a>
+Random Fourier approximations for skewed multiplicative histogram kernels
+- Lecture Notes for Computer Sciencd (DAGM)</p>
+</dd>
+<dt class="label" id="vz2010"><span class="brackets">VZ2010</span><span class="fn-backref">(<a href="#id4">1</a>,<a href="#id5">2</a>)</span></dt>
+<dd><p><a class="reference external" href="https://www.robots.ox.ac.uk/~vgg/publications/2011/Vedaldi11/vedaldi11.pdf">“Efficient additive kernels via explicit feature maps”</a>
+Vedaldi, A. and Zisserman, A. - Computer Vision and Pattern Recognition 2010</p>
+</dd>
+<dt class="label" id="vvz2010"><span class="brackets"><a class="fn-backref" href="#id6">VVZ2010</a></span></dt>
+<dd><p><a class="reference external" href="https://www.robots.ox.ac.uk/~vgg/publications/2010/Sreekanth10/sreekanth10.pdf">“Generalized RBF feature maps for Efficient Detection”</a>
+Vempati, S. and Vedaldi, A. and Zisserman, A. and Jawahar, CV - 2010</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>

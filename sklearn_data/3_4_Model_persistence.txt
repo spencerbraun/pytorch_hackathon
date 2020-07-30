@@ -1,0 +1,83 @@
+<div class="section" id="model-persistence">
+<span id="id1"></span><h1>3.4. Model persistence<a class="headerlink" href="#model-persistence" title="Permalink to this headline">¶</a></h1>
+<p>After training a scikit-learn model, it is desirable to have a way to persist
+the model for future use without having to retrain. The following section gives
+you an example of how to persist a model with pickle. We’ll also review a few
+security and maintainability issues when working with pickle serialization.</p>
+<p>An alternative to pickling is to export the model to another format using one
+of the model export tools listed under <a class="reference internal" href="../related_projects.html#related-projects"><span class="std std-ref">Related Projects</span></a>. Unlike
+pickling, once exported you cannot recover the full Scikit-learn estimator
+object, but you can deploy the model for prediction, usually by using tools
+supporting open model interchange formats such as <a class="reference external" href="https://onnx.ai/">ONNX</a> or
+<a class="reference external" href="http://dmg.org/pmml/v4-4/GeneralStructure.html">PMML</a>.</p>
+<div class="section" id="persistence-example">
+<h2>3.4.1. Persistence example<a class="headerlink" href="#persistence-example" title="Permalink to this headline">¶</a></h2>
+<p>It is possible to save a model in scikit-learn by using Python’s built-in
+persistence model, namely <a class="reference external" href="https://docs.python.org/2/library/pickle.html">pickle</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn</span> <span class="kn">import</span> <span class="n">svm</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn</span> <span class="kn">import</span> <span class="n">datasets</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">clf</span> <span class="o">=</span> <span class="n">svm</span><span class="o">.</span><span class="n">SVC</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span> <span class="n">datasets</span><span class="o">.</span><span class="n">load_iris</span><span class="p">(</span><span class="n">return_X_y</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="go">SVC()</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">pickle</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">clf</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">clf2</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">clf2</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1</span><span class="p">])</span>
+<span class="go">array([0])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="go">0</span>
+</pre></div>
+</div>
+<p>In the specific case of scikit-learn, it may be better to use joblib’s
+replacement of pickle (<code class="docutils literal notranslate"><span class="pre">dump</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">load</span></code>), which is more efficient on
+objects that carry large numpy arrays internally as is often the case for
+fitted scikit-learn estimators, but can only pickle to the disk and not to a
+string:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">joblib</span> <span class="kn">import</span> <span class="n">dump</span><span class="p">,</span> <span class="n">load</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dump</span><span class="p">(</span><span class="n">clf</span><span class="p">,</span> <span class="s1">'filename.joblib'</span><span class="p">)</span> 
+</pre></div>
+</div>
+<p>Later you can load back the pickled model (possibly in another Python process)
+with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">clf</span> <span class="o">=</span> <span class="n">load</span><span class="p">(</span><span class="s1">'filename.joblib'</span><span class="p">)</span> 
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><code class="docutils literal notranslate"><span class="pre">dump</span></code> and <code class="docutils literal notranslate"><span class="pre">load</span></code> functions also accept file-like object
+instead of filenames. More information on data persistence with Joblib is
+available <a class="reference external" href="https://joblib.readthedocs.io/en/latest/persistence.html">here</a>.</p>
+</div>
+</div>
+<div class="section" id="security-maintainability-limitations">
+<span id="persistence-limitations"></span><h2>3.4.2. Security &amp; maintainability limitations<a class="headerlink" href="#security-maintainability-limitations" title="Permalink to this headline">¶</a></h2>
+<p>pickle (and joblib by extension), has some issues regarding maintainability
+and security. Because of this,</p>
+<ul class="simple">
+<li><p>Never unpickle untrusted data as it could lead to malicious code being
+executed upon loading.</p></li>
+<li><p>While models saved using one version of scikit-learn might load in
+other versions, this is entirely unsupported and inadvisable. It should
+also be kept in mind that operations performed on such data could give
+different and unexpected results.</p></li>
+</ul>
+<p>In order to rebuild a similar model with future versions of scikit-learn,
+additional metadata should be saved along the pickled model:</p>
+<ul class="simple">
+<li><p>The training data, e.g. a reference to an immutable snapshot</p></li>
+<li><p>The python source code used to generate the model</p></li>
+<li><p>The versions of scikit-learn and its dependencies</p></li>
+<li><p>The cross validation score obtained on the training data</p></li>
+</ul>
+<p>This should make it possible to check that the cross-validation score is in the
+same range as before.</p>
+<p>Since a model internal representation may be different on two different
+architectures, dumping a model on one architecture and loading it on
+another architecture is not supported.</p>
+<p>If you want to know more about these issues and explore other possible
+serialization methods, please refer to this
+<a class="reference external" href="https://pyvideo.org/video/2566/pickles-are-for-delis-not-software">talk by Alex Gaynor</a>.</p>
+</div>
+</div>
