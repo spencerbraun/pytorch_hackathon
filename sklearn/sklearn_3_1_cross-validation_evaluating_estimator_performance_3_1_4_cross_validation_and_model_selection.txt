@@ -1,0 +1,4 @@
+sklearn_3_1_cross-validation_evaluating_estimator_performance
+3.1. Cross-validation: evaluating estimator performance
+modules/cross_validation.html
+ 3.1.4. Cross validation and model selection  Cross validation iterators can also be used to directly perform model selection using Grid Search for the optimal hyperparameters of the model. This is the topic of the next section: Tuning the hyper-parameters of an estimator . 

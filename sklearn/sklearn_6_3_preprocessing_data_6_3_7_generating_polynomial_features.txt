@@ -1,0 +1,4 @@
+sklearn_6_3_preprocessing_data
+6.3. Preprocessing data
+modules/preprocessing.html
+ 6.3.7. Generating polynomial features  Often it’s useful to add complexity to the model by considering nonlinear features of the input data. A simple and common method to use is polynomial features, which can get features’ high-order and interaction terms. It is implemented in PolynomialFeatures : The features of X have been transformed from to . In some cases, only interaction terms among features are required, and it can be gotten with the setting : The features of X have been transformed from to . Note that polynomial features are used implicitly in kernel methods (e.g., sklearn.svm.SVC , sklearn.decomposition.KernelPCA ) when using polynomial Kernel functions . See Polynomial interpolation for Ridge regression using created polynomial features. 

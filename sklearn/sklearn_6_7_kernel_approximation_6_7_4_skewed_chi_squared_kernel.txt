@@ -1,0 +1,4 @@
+sklearn_6_7_kernel_approximation
+6.7. Kernel Approximation
+modules/kernel_approximation.html
+ 6.7.4. Skewed Chi Squared Kernel  The skewed chi squared kernel is given by: \[k(x,y)  \prod_i \frac{2\sqrt{x_i+c}\sqrt{y_i+c}}{x_i + y_i + 2c}\] It has properties that are similar to the exponentiated chi squared kernel often used in computer vision, but allows for a simple Monte Carlo approximation of the feature map. The usage of the SkewedChi2Sampler is the same as the usage described above for the RBFSampler . The only difference is in the free parameter, that is called . For a motivation for this mapping and the mathematical details see [LS2010] . 

@@ -1,0 +1,4 @@
+sklearn_6_5_unsupervised_dimensionality_reduction
+6.5. Unsupervised dimensionality reduction
+modules/unsupervised_reduction.html
+ 6.5.1. PCA: principal component analysis  decomposition.PCA looks for a combination of features that capture well the variance of the original features. See Decomposing signals in components (matrix factorization problems) . Examples Faces recognition example using eigenfaces and SVMs 

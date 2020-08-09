@@ -1,0 +1,4 @@
+sklearn_6_5_unsupervised_dimensionality_reduction
+6.5. Unsupervised dimensionality reduction
+modules/unsupervised_reduction.html
+ 6.5.2. Random projections  The module: random_projection provides several tools for data reduction by random projections. See the relevant section of the documentation: Random Projection . Examples The Johnson-Lindenstrauss bound for embedding with random projections 

@@ -1,0 +1,4 @@
+caret_23_data_sets
+23 Data Sets
+data-sets.html
+ 23.4 Tecator NIR Data These data can be found in the datasets section of StatLib. The data consist of 100 near infrared absorbance spectra used to predict the moisture, fat and protein values of chopped meat. From StatLib : These data are recorded on a Tecator Infratec Food and Feed Analyzer working in the wavelength range 850 - 1050 nm by the Near Infrared Transmission (NIT) principle. Each sample contains finely chopped pure meat with different moisture, fat and protein contents. If results from these data are used in a publication we want you to mention the instrument and company name (Tecator) in the publication. In addition, please send a preprint of your article to: Karin Thente, Tecator AB, Box 70, S-263 21 Hoganas, Sweden. One reference for these data is Borggaard and Thodberg (1992). Using data(tecator) loads a 215 x 100 matrix of absorbance spectra and a 215 x 3 matrix of outcomes. 

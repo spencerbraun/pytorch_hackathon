@@ -1,0 +1,4 @@
+caret_13_using_your_own_model_in_train
+13 Using Your Own Model in train
+using-your-own-model-in-train.html
+ 13.6 Illustrative Example 3: Nonstandard Formulas (Note: the previous third illustration (“SMOTE During Resampling”) is no longer needed due to the inclusion of subsampling via train .) One limitation of train is that it requires the use of basic model formulas. There are several functions that use special formulas or operators on predictors that won’t (and perhaps should not) work in the top level call to train . However, we can still fit these models. Here is an example using the mboost function in the mboost package from the help page. We can create a custom model that mimics this code so that we can obtain resampling estimates for this specific model: 

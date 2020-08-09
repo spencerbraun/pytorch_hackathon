@@ -1,0 +1,4 @@
+caret_13_using_your_own_model_in_train
+13 Using Your Own Model in train
+using-your-own-model-in-train.html
+ 13.2 Illustrative Example 1: SVMs with Laplacian Kernels The package currently contains support vector machine (SVM) models using linear, polynomial and radial basis function kernels. The kernlab package has other functions, including the Laplacian kernel. We will illustrate the model components for this model, which has two parameters: the standard cost parameter for SVMs and one kernel parameter ( sigma ) 

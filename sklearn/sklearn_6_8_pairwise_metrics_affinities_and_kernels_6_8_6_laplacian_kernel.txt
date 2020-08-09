@@ -1,0 +1,4 @@
+sklearn_6_8_pairwise_metrics_affinities_and_kernels
+6.8. Pairwise metrics, Affinities and Kernels
+modules/metrics.html
+ 6.8.6. Laplacian kernel  The function laplacian_kernel is a variant on the radial basis function kernel defined as: \[k(x, y)  \exp( -\gamma \| x-y \|_1)\] where and are the input vectors and is the Manhattan distance between the input vectors. It has proven useful in ML applied to noiseless data. See e.g. Machine learning for quantum mechanics in a nutshell . 

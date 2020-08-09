@@ -1,0 +1,4 @@
+caret_17_measuring_performance
+17 Measuring Performance
+measuring-performance.html
+ 17.1 Measures for Regression The function postResample can be used to estimate the root mean squared error (RMSE), simple R 2 , and the mean absolute error (MAE) for numeric outcomes. For example: A note about how R 2 is calculated by caret : it takes the straightforward approach of computing the correlation between the observed and predicted values (i.e. R) and squaring the value. When the model is poor, this can lead to differences between this estimator and the more widely known estimate derived form linear regression models. Mostly notably, the correlation approach will not generate negative values of R 2 (which are theoretically invalid). A comparison of these and other estimators can be found in Kvalseth 1985 . 

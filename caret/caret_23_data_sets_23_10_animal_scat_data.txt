@@ -1,0 +1,4 @@
+caret_23_data_sets
+23 Data Sets
+data-sets.html
+ 23.10 Animal Scat Data Reid (2105) collected data on animal feses in coastal California. The data consist of DNA verified species designations as well as fields related to the time and place of the collection and the scat itself. The data frame scat_orig contains while scat contains data on the three main species. 

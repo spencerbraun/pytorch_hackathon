@@ -1,0 +1,4 @@
+sklearn_6_1_pipelines_and_composite_estimators
+6.1. Pipelines and composite estimators
+modules/compose.html
+ 6.1.5. Visualizing Composite Estimators  Estimators can be displayed with a HTML representation when shown in a jupyter notebook. This can be useful to diagnose or visualize a Pipeline with many estimators. This visualization is activated by setting the option in sklearn.set_config : An example of the HTML output can be seen in the HTML representation of Pipeline section of Column Transformer with Mixed Types . As an alternative, the HTML can be written to a file using estimator_html_repr : Examples: Column Transformer with Heterogeneous Data Sources Column Transformer with Mixed Types 

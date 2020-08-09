@@ -1,0 +1,4 @@
+sklearn_4_2_permutation_feature_importance
+4.2. Permutation feature importance
+modules/permutation_importance.html
+ 4.2.1. Outline of the permutation importance algorithm  Inputs: fitted predictive model , tabular dataset (training or validation) . Compute the reference score of the model on data (for instance the accuracy for a classifier or the for a regressor). For each feature (column of ): For each repetition in : Randomly shuffle column of dataset to generate a corrupted version of the data named . Compute the score of model on corrupted data . Compute importance for feature defined as: \[i_j  s - \frac{1}{K} \sum_{k1}^{K} s_{k,j}\] 

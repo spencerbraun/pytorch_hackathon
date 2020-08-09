@@ -1,0 +1,4 @@
+caret_22_feature_selection_using_simulated_annealing
+22 Feature Selection using Simulated Annealing
+feature-selection-using-simulated-annealing.html
+ 22.1 Simulated Annealing Simulated annealing (SA) is a global search method that makes small random changes (i.e. perturbations) to an initial candidate solution. If the performance value for the perturbed value is better than the previous solution, the new solution is accepted. If not, an acceptance probability is determined based on the difference between the two performance values and the current iteration of the search. From this, a sub-optimal solution can be accepted on the off-change that it may eventually produce a better solution in subsequent iterations. See Kirkpatrick (1984) or Rutenbar (1989) for better descriptions. In the context of feature selection, a solution is a binary vector that describes the current subset. The subset is perturbed by randomly changing a small number of members in the subset. 

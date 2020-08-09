@@ -1,0 +1,4 @@
+caret_7_train_models_by_tag
+7 train Models By Tag
+train-models-by-tag.html
+ 7.0.32 Patient Rule Induction Method (back to contents ) Patient Rule Induction Method Type: Classification Tuning parameters: peel.alpha (peeling quantile) paste.alpha (pasting quantile) mass.min (minimum mass) Required packages: supervisedPRIM 

@@ -1,0 +1,4 @@
+caret_7_train_models_by_tag
+7 train Models By Tag
+train-models-by-tag.html
+ 7.0.25 Mixture Model (back to contents ) Adaptive Mixture Discriminant Analysis Type: Classification Tuning parameters: model (Model Type) Required packages: adaptDA Mixture Discriminant Analysis Type: Classification Tuning parameters: subclasses (#Subclasses Per Class) Required packages: mda Robust Mixture Discriminant Analysis Type: Classification Tuning parameters: K (#Subclasses Per Class) model (Model) Required packages: robustDA Sparse Mixture Discriminant Analysis Type: Classification Tuning parameters: NumVars (# Predictors) lambda (Lambda) R (# Subclasses) Required packages: sparseLDA 

@@ -1,0 +1,4 @@
+caret_12_using_recipes_with_train
+12 Using Recipes with train
+using-recipes-with-train.html
+ 12.3 Case Weights For models that accept them , case weights can be passed to the model fitting routines using a role of "case weight" . 

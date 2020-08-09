@@ -1,0 +1,4 @@
+sklearn_1_11_ensemble_methods
+1.11. Ensemble methods
+modules/ensemble.html
+ 1.11.7. Voting Regressor  The idea behind the VotingRegressor is to combine conceptually different machine learning regressors and return the average predicted values. Such a regressor can be useful for a set of equally well performing models in order to balance out their individual weaknesses. 1.11.7.1. Usage  The following example shows how to fit the VotingRegressor: Examples: Plot individual and voting regression predictions 

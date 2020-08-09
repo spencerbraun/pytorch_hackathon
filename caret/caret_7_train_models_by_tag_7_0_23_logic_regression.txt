@@ -1,0 +1,4 @@
+caret_7_train_models_by_tag
+7 train Models By Tag
+train-models-by-tag.html
+ 7.0.23 Logic Regression (back to contents ) Bagged Logic Regression Type: Regression, Classification Tuning parameters: nleaves (Maximum Number of Leaves) ntrees (Number of Trees) Required packages: logicFS Notes: Unlike other packages used by train , the logicFS package is fully loaded when this model is used. Logic Regression Type: Regression, Classification Tuning parameters: treesize (Maximum Number of Leaves) ntrees (Number of Trees) Required packages: LogicReg 

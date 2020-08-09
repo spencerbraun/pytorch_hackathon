@@ -1,0 +1,4 @@
+caret_22_feature_selection_using_simulated_annealing
+22 Feature Selection using Simulated Annealing
+feature-selection-using-simulated-annealing.html
+ 22.6 Using Recipes Similar to the previous section on genetic algorothms, recipes can be used with safs . Using the same data as before: Let’s again use linear models with the function: 

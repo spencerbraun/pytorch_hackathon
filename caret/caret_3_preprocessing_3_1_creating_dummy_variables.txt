@@ -1,0 +1,4 @@
+caret_3_preprocessing
+3 Pre-Processing
+pre-processing.html
+ 3.1 Creating Dummy Variables The function dummyVars can be used to generate a complete (less than full rank parameterized) set of dummy variables from one or more factors. The function takes a formula and a data set and outputs an object that can be used to create the dummy variables using the predict method. For example, the etitanic data set in the earth package includes two factors: pclass (passenger class, with levels 1st, 2nd, 3rd) and sex (with levels female, male). The base R function model.matrix would generate the following variables: Using dummyVars : Note there is no intercept and each factor has a dummy variable for each level, so this parameterization may not be useful for some model functions, such as lm . 

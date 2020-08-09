@@ -1,0 +1,4 @@
+caret_17_measuring_performance
+17 Measuring Performance
+measuring-performance.html
+ 17.5 Calibration Curves Calibration curves can be used to characterisze how consistent the predicted class probabilities are with the observed event rates. Other functions in the gbm package, the rms package (and others) can also produce calibrartion curves. The format for the function is very similar to the lift function: There is also a ggplot method that shows the confidence intervals for the proportions inside of the subsets: 

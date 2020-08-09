@@ -1,0 +1,4 @@
+caret_7_train_models_by_tag
+7 train Models By Tag
+train-models-by-tag.html
+ 7.0.26 Model Tree (back to contents ) Cubist Type: Regression Tuning parameters: committees (#Committees) neighbors (#Instances) Required packages: Cubist A model-specific variable importance metric is available. Logistic Model Trees Type: Classification Tuning parameters: iter (# Iteratons) Required packages: RWeka Model Rules Type: Regression Tuning parameters: pruned (Pruned) smoothed (Smoothed) Required packages: RWeka Model Tree Type: Regression Tuning parameters: pruned (Pruned) smoothed (Smoothed) rules (Rules) Required packages: RWeka 

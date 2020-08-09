@@ -1,0 +1,4 @@
+sklearn_1_9_naive_bayes
+1.9. Naive Bayes
+modules/naive_bayes.html
+ 1.9.6. Out-of-core naive Bayes model fitting  Naive Bayes models can be used to tackle large scale classification problems for which the full training set might not fit in memory. To handle this case, MultinomialNB , BernoulliNB , and GaussianNB expose a method that can be used incrementally as done with other classifiers as demonstrated in Out-of-core classification of text documents . All naive Bayes classifiers support sample weighting. Contrary to the method, the first call to needs to be passed the list of all the expected class labels. For an overview of available strategies in scikit-learn, see also the out-of-core learning documentation. Note The method call of naive Bayes models introduces some computational overhead. It is recommended to use data chunk sizes that are as large as possible, that is as the available RAM allows. 

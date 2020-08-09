@@ -1,0 +1,4 @@
+caret_3_preprocessing
+3 Pre-Processing
+pre-processing.html
+ 3.4 Linear Dependencies The function findLinearCombos uses the QR decomposition of a matrix to enumerate sets of linear combinations (if they exist). For example, consider the following matrix that is could have been produced by a less-than-full-rank parameterizations of a two-way experimental layout: Note that columns two and three add up to the first column. Similarly, columns four, five and six add up the first column. findLinearCombos will return a list that enumerates these dependencies. For each linear combination, it will incrementally remove columns from the matrix and test to see if the dependencies have been resolved. findLinearCombos will also return a vector of column positions can be removed to eliminate the linear dependencies: These types of dependencies can arise when large numbers of binary chemical fingerprints are used to describe the structure of a molecule. 

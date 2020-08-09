@@ -1,0 +1,4 @@
+caret_4_data_splitting
+4 Data Splitting
+data-splitting.html
+ 4.1 Simple Splitting Based on the Outcome The function createDataPartition can be used to create balanced splits of the data. If the y argument to this function is a factor, the random sampling occurs within each class and should preserve the overall class distribution of the data. For example, to create a single 80/20% split of the iris data: The list  FALSE avoids returning the data as a list. This function also has an argument, times , that can create multiple splits at once; the data indices are returned in a list of integer vectors. Similarly, createResample can be used to make simple bootstrap samples and createFolds can be used to generate balanced cross–validation groupings from a set of data. 

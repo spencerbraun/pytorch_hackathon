@@ -1,0 +1,4 @@
+sklearn_1_17_neural_network_models_supervised
+1.17. Neural network models (supervised)
+modules/neural_networks_supervised.html
+ 1.17.6. Complexity  Suppose there are training samples, features, hidden layers, each containing neurons - for simplicity, and output neurons. The time complexity of backpropagation is , where is the number of iterations. Since backpropagation has a high time complexity, it is advisable to start with smaller number of hidden neurons and few hidden layers for training. 

@@ -1,0 +1,4 @@
+sklearn_1_17_neural_network_models_supervised
+1.17. Neural network models (supervised)
+modules/neural_networks_supervised.html
+ 1.17.4. Regularization  Both MLPRegressor and MLPClassifier use parameter for regularization (L2 regularization) term which helps in avoiding overfitting by penalizing weights with large magnitudes. Following plot displays varying decision function with value of alpha. See the examples below for further information. Examples: Varying regularization in Multi-layer Perceptron 

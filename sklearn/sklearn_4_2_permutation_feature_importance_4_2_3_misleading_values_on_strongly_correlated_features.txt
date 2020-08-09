@@ -1,0 +1,4 @@
+sklearn_4_2_permutation_feature_importance
+4.2. Permutation feature importance
+modules/permutation_importance.html
+ 4.2.3. Misleading values on strongly correlated features  When two features are correlated and one of the features is permuted, the model will still have access to the feature through its correlated feature. This will result in a lower importance value for both features, where they might actually be important. One way to handle this is to cluster features that are correlated and only keep one feature from each cluster. This strategy is explored in the following example: Permutation Importance with Multicollinear or Correlated Features . Examples: Permutation Importance vs Random Forest Feature Importance (MDI) Permutation Importance with Multicollinear or Correlated Features References: 1 L. Breiman, “Random Forests”, Machine Learning, 45(1), 5-32, 2001. https://doi.org/10.1023/A:1010933404324 

@@ -1,0 +1,4 @@
+sklearn_1_13_feature_selection
+1.13. Feature selection
+modules/feature_selection.html
+ 1.13.1. Removing features with low variance  VarianceThreshold is a simple baseline approach to feature selection. It removes all features whose variance doesn’t meet some threshold. By default, it removes all zero-variance features, i.e. features that have the same value in all samples. As an example, suppose that we have a dataset with boolean features, and we want to remove all features that are either one or zero (on or off) in more than 80% of the samples. Boolean features are Bernoulli random variables, and the variance of such variables is given by \[\mathrm{Var}[X]  p(1 - p)\] so we can select using the threshold : As expected, has removed the first column, which has a probability of containing a zero. 

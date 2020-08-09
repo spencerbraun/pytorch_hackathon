@@ -1,0 +1,4 @@
+caret_19_feature_selection_using_univariate_filters
+19 Feature Selection using Univariate Filters
+feature-selection-using-univariate-filters.html
+ 19.3 The Example Returning to the example from (Friedman, 1991), we can fit another random forest model with the predictors pre-filtered using the generalized additive model approach described previously. In this case, the training set indicated that 6 should be used in the random forest model, but the resampling results indicate that there is some variation in this number. Some of the informative predictors are used, but a few others are erroneous retained. Similar to rfe , there are methods for predictors , densityplot , histogram and varImp . 

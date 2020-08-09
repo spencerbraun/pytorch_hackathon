@@ -1,0 +1,4 @@
+caret_22_feature_selection_using_simulated_annealing
+22 Feature Selection using Simulated Annealing
+feature-selection-using-simulated-annealing.html
+ 22.2 Internal and External Performance Estimates Much of the discussion on this subject in the genetic algorithm page is relevant here, although SA search is less aggressive than GA search. In any case, the implementation here conducts the SA search inside the resampling loops and uses an external performance estimate to choose how many iterations of the search are appropriate. 

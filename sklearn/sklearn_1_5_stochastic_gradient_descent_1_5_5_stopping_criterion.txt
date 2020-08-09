@@ -1,0 +1,4 @@
+sklearn_1_5_stochastic_gradient_descent
+1.5. Stochastic Gradient Descent
+modules/sgd.html
+ 1.5.5. Stopping criterion  The classes SGDClassifier and SGDRegressor provide two criteria to stop the algorithm when a given level of convergence is reached: With , the input data is split into a training set and a validation set. The model is then fitted on the training set, and the stopping criterion is based on the prediction score (using the method) computed on the validation set. The size of the validation set can be changed with the parameter . With , the model is fitted on the entire input data and the stopping criterion is based on the objective function computed on the training data. In both cases, the criterion is evaluated once by epoch, and the algorithm stops when the criterion does not improve times in a row. The improvement is evaluated with absolute tolerance , and the algorithm stops in any case after a maximum number of iteration . 

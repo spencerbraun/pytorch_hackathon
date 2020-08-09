@@ -1,0 +1,4 @@
+sklearn_6_8_pairwise_metrics_affinities_and_kernels
+6.8. Pairwise metrics, Affinities and Kernels
+modules/metrics.html
+ 6.8.5. RBF kernel  The function rbf_kernel computes the radial basis function (RBF) kernel between two vectors. This kernel is defined as: \[k(x, y)  \exp( -\gamma \| x-y \|^2)\] where and are the input vectors. If the kernel is known as the Gaussian kernel of variance . 

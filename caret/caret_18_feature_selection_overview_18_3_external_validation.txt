@@ -1,0 +1,4 @@
+caret_18_feature_selection_overview
+18 Feature Selection Overview
+feature-selection-overview.html
+ 18.3 External Validation It is important to realize that feature selection is part of the model building process and, as such, should be externally validated. Just as parameter tuning can result in over-fitting, feature selection can over-fit to the predictors (especially when search wrappers are used). In each of the caret functions for feature selection, the selection process is included in any resampling loops. See See Ambroise and McLachlan (2002) for a demonstration of this issue. 

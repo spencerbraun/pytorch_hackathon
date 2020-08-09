@@ -1,0 +1,4 @@
+caret_5_model_training_and_tuning
+5 Model Training and Tuning
+model-training-and-tuning.html
+ 5.2 An Example The Sonar data are available in the mlbench package. Here, we load the data: The function createDataPartition can be used to create a stratified random sample of the data into training and test sets: We will use these data illustrate functionality on this (and other) pages. 

@@ -1,0 +1,4 @@
+sklearn_3_3_metrics_and_scoring_quantifying_the_quality_of_predictions
+3.3. Metrics and scoring: quantifying the quality of predictions
+modules/model_evaluation.html
+ 3.3.5. Clustering metrics  The sklearn.metrics module implements several loss, score, and utility functions. For more information see the Clustering performance evaluation section for instance clustering, and Biclustering evaluation for biclustering. 

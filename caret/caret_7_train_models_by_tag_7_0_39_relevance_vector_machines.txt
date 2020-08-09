@@ -1,0 +1,4 @@
+caret_7_train_models_by_tag
+7 train Models By Tag
+train-models-by-tag.html
+ 7.0.39 Relevance Vector Machines (back to contents ) Relevance Vector Machines with Linear Kernel Type: Regression No tuning parameters for this model Required packages: kernlab Relevance Vector Machines with Polynomial Kernel Type: Regression Tuning parameters: scale (Scale) degree (Polynomial Degree) Required packages: kernlab Relevance Vector Machines with Radial Basis Function Kernel Type: Regression Tuning parameters: sigma (Sigma) Required packages: kernlab 

@@ -1,0 +1,4 @@
+sklearn_6_8_pairwise_metrics_affinities_and_kernels
+6.8. Pairwise metrics, Affinities and Kernels
+modules/metrics.html
+ 6.8.4. Sigmoid kernel  The function sigmoid_kernel computes the sigmoid kernel between two vectors. The sigmoid kernel is also known as hyperbolic tangent, or Multilayer Perceptron (because, in the neural network field, it is often used as neuron activation function). It is defined as: \[k(x, y)  \tanh( \gamma x^\top y + c_0)\] where: , are the input vectors is known as slope is known as intercept 

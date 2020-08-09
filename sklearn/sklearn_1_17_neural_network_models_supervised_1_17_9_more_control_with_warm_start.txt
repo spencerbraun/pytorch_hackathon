@@ -1,0 +1,4 @@
+sklearn_1_17_neural_network_models_supervised
+1.17. Neural network models (supervised)
+modules/neural_networks_supervised.html
+ 1.17.9. More control with warm_start  If you want more control over stopping criteria or learning rate in SGD, or want to do additional monitoring, using and and iterating yourself can be helpful: References: “Learning representations by back-propagating errors.” Rumelhart, David E., Geoffrey E. Hinton, and Ronald J. Williams. “Stochastic Gradient Descent” L. Bottou - Website, 2010. “Backpropagation” Andrew Ng, Jiquan Ngiam, Chuan Yu Foo, Yifan Mai, Caroline Suen - Website, 2011. “Efficient BackProp” Y. LeCun, L. Bottou, G. Orr, K. Müller - In Neural Networks: Tricks of the Trade 1998. “Adam: A method for stochastic optimization.” Kingma, Diederik, and Jimmy Ba. arXiv preprint arXiv:1412.6980 (2014). 

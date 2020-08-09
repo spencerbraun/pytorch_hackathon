@@ -1,0 +1,4 @@
+caret_16_miscellaneous_model_functions
+16 Miscellaneous Model Functions
+miscellaneous-model-functions.html
+ 16.6 Neural Networks with a Principal Component Step Neural networks can be affected by severe amounts of multicollinearity in the predictors. The function pcaNNet is a wrapper around the preProcess and nnet functions that will run principal component analysis on the predictors before using them as inputs into a neural network. The function will keep enough components that will capture some pre-defined threshold on the cumulative proportion of variance (see the thresh argument). For new samples, the same transformation is applied to the new predictor values (based on the loadings from the training set). The function is available for both regression and classification. This function is deprecated in favor of the train function using method  "nnet" and preProc  "pca" . 

@@ -1,0 +1,4 @@
+caret_23_data_sets
+23 Data Sets
+data-sets.html
+ 23.7 Kelly Blue Book Resale data for 2005 model year GM cars Kuiper (2008) collected data on Kelly Blue Book resale data for 804 GM cars (2005 model year). cars is data frame of the suggested retail price (column Price ) and various characteristics of each car (columns Mileage , Cylinder , Doors , Cruise , Sound , Leather , Buick , Cadillac , Chevy , Pontiac , Saab , Saturn , convertible , coupe , hatchback , sedan and wagon ) 

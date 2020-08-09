@@ -1,0 +1,4 @@
+caret_16_miscellaneous_model_functions
+16 Miscellaneous Model Functions
+miscellaneous-model-functions.html
+ 16.7 Independent Component Regression The icr function can be used to fit a model analogous to principal component regression (PCR), but using independent component analysis (ICA). The predictor data are centered and projected to the ICA components. These components are then regressed against the outcome. The user needed to specify the number of components to keep. The model uses the preProcess function to compute the latent variables using the fastICA package. Like PCR, there is no guarantee that there will be a correlation between the new latent variable and the outcomes. 

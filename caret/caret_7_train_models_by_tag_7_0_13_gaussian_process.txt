@@ -1,0 +1,4 @@
+caret_7_train_models_by_tag
+7 train Models By Tag
+train-models-by-tag.html
+ 7.0.13 Gaussian Process (back to contents ) Gaussian Process Type: Regression, Classification No tuning parameters for this model Required packages: kernlab Gaussian Process with Polynomial Kernel Type: Regression, Classification Tuning parameters: degree (Polynomial Degree) scale (Scale) Required packages: kernlab Gaussian Process with Radial Basis Function Kernel Type: Regression, Classification Tuning parameters: sigma (Sigma) Required packages: kernlab Variational Bayesian Multinomial Probit Regression Type: Classification Tuning parameters: estimateTheta (Theta Estimated) Required packages: vbmp 

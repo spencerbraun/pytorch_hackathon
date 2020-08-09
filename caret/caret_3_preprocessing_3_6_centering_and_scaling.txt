@@ -1,0 +1,4 @@
+caret_3_preprocessing
+3 Pre-Processing
+pre-processing.html
+ 3.6 Centering and Scaling In the example below, the half of the MDRR data are used to estimate the location and scale of the predictors. The function preProcess doesn’t actually pre-process the data. predict.preProcess is used to pre-process this and other data sets. The preProcess option "range" scales the data to the interval between zero and one. 

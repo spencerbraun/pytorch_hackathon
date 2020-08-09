@@ -1,0 +1,4 @@
+sklearn_6_5_unsupervised_dimensionality_reduction
+6.5. Unsupervised dimensionality reduction
+modules/unsupervised_reduction.html
+ 6.5.3. Feature agglomeration  cluster.FeatureAgglomeration applies Hierarchical clustering to group together features that behave similarly. Examples Feature agglomeration vs. univariate selection Feature agglomeration Feature scaling Note that if features have very different scaling or statistical properties, cluster.FeatureAgglomeration may not be able to capture the links between related features. Using a preprocessing.StandardScaler can be useful in these settings. 

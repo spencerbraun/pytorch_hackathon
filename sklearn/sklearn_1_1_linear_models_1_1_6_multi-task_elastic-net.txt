@@ -1,0 +1,4 @@
+sklearn_1_1_linear_models
+1.1. Linear Models
+modules/linear_model.html
+ 1.1.6. Multi-task Elastic-Net  The MultiTaskElasticNet is an elastic-net model that estimates sparse coefficients for multiple regression problems jointly: is a 2D array of shape . The constraint is that the selected features are the same for all the regression problems, also called tasks. Mathematically, it consists of a linear model trained with a mixed -norm and -norm for regularization. The objective function to minimize is: \[\min_{W} { \frac{1}{2n_{\text{samples}}} ||X W - Y||_{\text{Fro}}^2 + \alpha \rho ||W||_{2 1} + \frac{\alpha(1-\rho)}{2} ||W||_{\text{Fro}}^2}\] The implementation in the class MultiTaskElasticNet uses coordinate descent as the algorithm to fit the coefficients. The class MultiTaskElasticNetCV can be used to set the parameters ( ) and ( ) by cross-validation. 

@@ -1,0 +1,4 @@
+caret_3_preprocessing
+3 Pre-Processing
+pre-processing.html
+ 3.5 The preProcess Function The preProcess class can be used for many operations on predictors, including centering and scaling. The function preProcess estimates the required parameters for each operation and predict.preProcess is used to apply them to specific data sets. This function can also be interfaces when calling the train function. Several types of techniques are described in the next few sections and then another example is used to demonstrate how multiple methods can be used. Note that, in all cases, the preProcess function estimates whatever it requires from a specific data set (e.g. the training set) and then applies these transformations to any data set without recomputing the values 

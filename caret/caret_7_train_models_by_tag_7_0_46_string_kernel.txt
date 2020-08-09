@@ -1,0 +1,4 @@
+caret_7_train_models_by_tag
+7 train Models By Tag
+train-models-by-tag.html
+ 7.0.46 String Kernel (back to contents ) Support Vector Machines with Boundrange String Kernel Type: Regression, Classification Tuning parameters: length (length) C (Cost) Required packages: kernlab Support Vector Machines with Exponential String Kernel Type: Regression, Classification Tuning parameters: lambda (lambda) C (Cost) Required packages: kernlab Support Vector Machines with Spectrum String Kernel Type: Regression, Classification Tuning parameters: length (length) C (Cost) Required packages: kernlab 

@@ -1,0 +1,4 @@
+sklearn_3_4_model_persistence
+3.4. Model persistence
+modules/model_persistence.html
+ 3.4.1. Persistence example  It is possible to save a model in scikit-learn by using Python’s built-in persistence model, namely pickle : In the specific case of scikit-learn, it may be better to use joblib’s replacement of pickle ( & ), which is more efficient on objects that carry large numpy arrays internally as is often the case for fitted scikit-learn estimators, but can only pickle to the disk and not to a string: Later you can load back the pickled model (possibly in another Python process) with: Note and functions also accept file-like object instead of filenames. More information on data persistence with Joblib is available here . 

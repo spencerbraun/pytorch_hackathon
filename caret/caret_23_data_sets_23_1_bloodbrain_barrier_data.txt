@@ -1,0 +1,4 @@
+caret_23_data_sets
+23 Data Sets
+data-sets.html
+ 23.1 Blood-Brain Barrier Data Mente and Lombardo (2005) developed models to predict the log of the ratio of the concentration of a compound in the brain and the concentration in blood. For each compound, they computed three sets of molecular descriptors: MOE 2D, rule-of-five and Charge Polar Surface Area (CPSA). In all, 134 descriptors were calculated. Included in this package are 208 non-proprietary literature compounds. The vector logBBB contains the log concentration ratio and the data fame bbbDescr contains the descriptor values. 

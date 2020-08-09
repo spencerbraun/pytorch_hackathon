@@ -1,0 +1,4 @@
+sklearn_1_10_decision_trees
+1.10. Decision Trees
+modules/tree.html
+ 1.10.2. Regression  Decision trees can also be applied to regression problems, using the DecisionTreeRegressor class. As in the classification setting, the fit method will take as argument arrays X and y, only that in this case y is expected to have floating point values instead of integer values: Examples: Decision Tree Regression 

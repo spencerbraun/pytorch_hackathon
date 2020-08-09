@@ -1,0 +1,4 @@
+caret_7_train_models_by_tag
+7 train Models By Tag
+train-models-by-tag.html
+ 7.0.43 ROC Curves (back to contents ) ROC-Based Classifier Type: Classification Tuning parameters: xgenes (#Variables Retained) Required packages: rocc 

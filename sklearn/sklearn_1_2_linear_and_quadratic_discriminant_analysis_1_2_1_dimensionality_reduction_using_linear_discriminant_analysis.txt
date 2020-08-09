@@ -1,0 +1,4 @@
+sklearn_1_2_linear_and_quadratic_discriminant_analysis
+1.2. Linear and Quadratic Discriminant Analysis
+modules/lda_qda.html
+ 1.2.1. Dimensionality reduction using Linear Discriminant Analysis  LinearDiscriminantAnalysis can be used to perform supervised dimensionality reduction, by projecting the input data to a linear subspace consisting of the directions which maximize the separation between classes (in a precise sense discussed in the mathematics section below). The dimension of the output is necessarily less than the number of classes, so this is in general a rather strong dimensionality reduction, and only makes sense in a multiclass setting. This is implemented in the method. The desired dimensionality can be set using the parameter. This parameter has no influence on the and methods. Examples: Comparison of LDA and PCA 2D projection of Iris dataset : Comparison of LDA and PCA for dimensionality reduction of the Iris dataset 

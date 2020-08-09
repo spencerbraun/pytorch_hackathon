@@ -1,0 +1,4 @@
+sklearn_4_1_partial_dependence_plots
+4.1. Partial dependence plots
+modules/partial_dependence.html
+ 4.1.1. Mathematical Definition  Let be the set of target features (i.e. the parameter) and let be its complement. The partial dependence of the response at a point is defined as: \[\begin{split}pd_{X_S}(x_S) &\overset{def}{} \mathbb{E}_{X_C}\left[ f(x_S, X_C) \right]\\ & \int f(x_S, x_C) p(x_C) dx_C,\end{split}\] where is the response function ( predict , predict_proba or decision_function ) for a given sample whose values are defined by for the features in , and by for the features in . Note that and may be tuples. Computing this integral for various values of produces a plot as above. 

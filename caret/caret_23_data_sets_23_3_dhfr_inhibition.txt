@@ -1,0 +1,4 @@
+caret_23_data_sets
+23 Data Sets
+data-sets.html
+ 23.3 DHFR Inhibition Sutherland and Weaver (2004) discuss QSAR models for dihydrofolate reductase (DHFR) inhibition. This data set contains values for 325 compounds. For each compound, 228 molecular descriptors have been calculated. Additionally, each samples is designated as “active” or “inactive”. The data frame dhfr contains a column called Y with the outcome classification. The remainder of the columns are molecular descriptor values. 

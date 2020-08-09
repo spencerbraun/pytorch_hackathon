@@ -1,0 +1,4 @@
+sklearn_1_17_neural_network_models_supervised
+1.17. Neural network models (supervised)
+modules/neural_networks_supervised.html
+ 1.17.3. Regression  Class MLPRegressor implements a multi-layer perceptron (MLP) that trains using backpropagation with no activation function in the output layer, which can also be seen as using the identity function as activation function. Therefore, it uses the square error as the loss function, and the output is a set of continuous values. MLPRegressor also supports multi-output regression, in which a sample can have more than one target. 

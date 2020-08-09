@@ -1,0 +1,4 @@
+sklearn_1_4_support_vector_machines
+1.4. Support Vector Machines
+modules/svm.html
+ 1.4.4. Complexity  Support Vector Machines are powerful tools, but their compute and storage requirements increase rapidly with the number of training vectors. The core of an SVM is a quadratic programming problem (QP), separating support vectors from the rest of the training data. The QP solver used by the libsvm -based implementation scales between and depending on how efficiently the libsvm cache is used in practice (dataset dependent). If the data is very sparse should be replaced by the average number of non-zero features in a sample vector. For the linear case, the algorithm used in LinearSVC by the liblinear implementation is much more efficient than its libsvm -based SVC counterpart and can scale almost linearly to millions of samples and/or features. 

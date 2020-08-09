@@ -1,0 +1,4 @@
+sklearn_1_12_multiclass_and_multilabel_algorithms
+1.12. Multiclass and multilabel algorithms
+modules/multiclass.html
+ 1.12.5. Multioutput regression  Multioutput regression support can be added to any regressor with MultiOutputRegressor . This strategy consists of fitting one regressor per target. Since each target is represented by exactly one regressor it is possible to gain knowledge about the target by inspecting its corresponding regressor. As MultiOutputRegressor fits one regressor per target it can not take advantage of correlations between targets. Below is an example of multioutput regression: 

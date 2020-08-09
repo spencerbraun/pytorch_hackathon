@@ -1,0 +1,4 @@
+caret_20_recursive_feature_elimination
+20 Recursive Feature Elimination
+recursive-feature-elimination.html
+ 20.6 The Example For random forest, we fit the same series of model sizes as the linear model. The option to save all the resampling results across subset sizes was changed for this model and are used to show the lattice plot function capabilities in the figures below. The resampling profile can be visualized along with plots of the individual resampling results: 

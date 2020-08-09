@@ -1,0 +1,4 @@
+sklearn_6_6_random_projection
+6.6. Random Projection
+modules/random_projection.html
+ 6.6.2. Gaussian random projection  The sklearn.random_projection.GaussianRandomProjection reduces the dimensionality by projecting the original input space on a randomly generated matrix where components are drawn from the following distribution . Here a small excerpt which illustrates how to use the Gaussian random projection transformer: 

@@ -1,0 +1,4 @@
+sklearn_1_5_stochastic_gradient_descent
+1.5. Stochastic Gradient Descent
+modules/sgd.html
+ 1.5.3. Stochastic Gradient Descent for sparse data  Note The sparse implementation produces slightly different results from the dense implementation, due to a shrunk learning rate for the intercept. See Implementation details . There is built-in support for sparse data given in any matrix in a format supported by scipy.sparse . For maximum efficiency, however, use the CSR matrix format as defined in scipy.sparse.csr_matrix . Examples: Classification of text documents using sparse features 

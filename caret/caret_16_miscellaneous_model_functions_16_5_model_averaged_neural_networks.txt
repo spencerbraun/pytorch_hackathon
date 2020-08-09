@@ -1,0 +1,4 @@
+caret_16_miscellaneous_model_functions
+16 Miscellaneous Model Functions
+miscellaneous-model-functions.html
+ 16.5 Model Averaged Neural Networks The avNNet fits multiple neural network models to the same data set and predicts using the average of the predictions coming from each constituent model. The models can be different either due to different random number seeds to initialize the network or by fitting the models on bootstrap samples of the original training set (i.e. bagging the neural network). For classification models, the class probabilities are averaged to produce the final class prediction (as opposed to voting from the individual class predictions. As an example, the model can be fit via train : 

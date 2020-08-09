@@ -1,0 +1,4 @@
+sklearn_1_4_support_vector_machines
+1.4. Support Vector Machines
+modules/svm.html
+ 1.4.3. Density estimation, novelty detection  The class OneClassSVM implements a One-Class SVM which is used in outlier detection. See Novelty and Outlier Detection for the description and usage of OneClassSVM. 

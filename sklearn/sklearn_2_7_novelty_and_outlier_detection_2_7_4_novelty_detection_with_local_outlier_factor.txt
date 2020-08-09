@@ -1,0 +1,4 @@
+sklearn_2_7_novelty_and_outlier_detection
+2.7. Novelty and Outlier Detection
+modules/outlier_detection.html
+ 2.7.4. Novelty detection with Local Outlier Factor  To use neighbors.LocalOutlierFactor for novelty detection, i.e. predict labels or compute the score of abnormality of new unseen data, you need to instantiate the estimator with the parameter set to before fitting the estimator: Note that is not available in this case. Warning Novelty detection with Local Outlier Factor` When is set to be aware that you must only use , and on new unseen data and not on the training samples as this would lead to wrong results. The scores of abnormality of the training samples are always accessible through the attribute. Novelty detection with Local Outlier Factor is illustrated below. 

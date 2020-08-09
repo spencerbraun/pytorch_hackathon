@@ -1,0 +1,4 @@
+sklearn_6_7_kernel_approximation
+6.7. Kernel Approximation
+modules/kernel_approximation.html
+ 6.7.1. Nystroem Method for Kernel Approximation  The Nystroem method, as implemented in Nystroem is a general method for low-rank approximations of kernels. It achieves this by essentially subsampling the data on which the kernel is evaluated. By default Nystroem uses the kernel, but it can use any kernel function or a precomputed kernel matrix. The number of samples used - which is also the dimensionality of the features computed - is given by the parameter . 

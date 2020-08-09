@@ -1,0 +1,4 @@
+sklearn_6_4_imputation_of_missing_values
+6.4. Imputation of missing values
+modules/impute.html
+ 6.4.1. Univariate vs. Multivariate Imputation  One type of imputation algorithm is univariate, which imputes values in the i-th feature dimension using only non-missing values in that feature dimension (e.g. impute.SimpleImputer ). By contrast, multivariate imputation algorithms use the entire set of available feature dimensions to estimate the missing values (e.g. impute.IterativeImputer ). 

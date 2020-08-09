@@ -1,0 +1,4 @@
+caret_17_measuring_performance
+17 Measuring Performance
+measuring-performance.html
+ 17.4 Lift Curves The lift function can be used to evaluate probabilities thresholds that can capture a certain percentage of hits. The function requires a set of sample probability predictions (not from the training set) and the true class labels. For example, we can simulate two-class samples using the twoClassSim function and fit a set of models to the training set: The lift function does the calculations and the corresponding plot function is used to plot the lift curve (although some call this the gain curve ). The value argument creates reference lines: There is also a ggplot method for lift objects: From this we can see that, to find 60 percent of the hits, a little more than 30 percent of the data can be sampled (when ordered by the probability predictions). The LDA model does somewhat worse than the other two models. 

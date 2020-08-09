@@ -1,0 +1,4 @@
+sklearn_1_12_multiclass_and_multilabel_algorithms
+1.12. Multiclass and multilabel algorithms
+modules/multiclass.html
+ 1.12.8. Regressor Chain  Regressor chains (see RegressorChain ) is analogous to ClassifierChain as a way of combining a number of regressions into a single multi-target model that is capable of exploiting correlations among targets. 

@@ -1,0 +1,4 @@
+sklearn_6_9_transforming_the_prediction_target_y
+6.9. Transforming the prediction target (y)
+modules/preprocessing_targets.html
+ 6.9.1. Label binarization  LabelBinarizer is a utility class to help create a label indicator matrix from a list of multi-class labels: For multiple labels per instance, use MultiLabelBinarizer : 

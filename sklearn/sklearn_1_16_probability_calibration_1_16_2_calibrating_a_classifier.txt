@@ -1,0 +1,4 @@
+sklearn_1_16_probability_calibration
+1.16. Probability calibration
+modules/calibration.html
+ 1.16.2. Calibrating a classifier  Calibrating a classifier consists in fitting a regressor (called a calibrator ) that maps the output of the classifier (as given by predict or predict_proba ) to a calibrated probability in [0, 1]. Denoting the output of the classifier for a given sample by , the calibrator tries to predict . The samples that are used to train the calibrator should not be used to train the target classifier. 

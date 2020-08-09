@@ -1,0 +1,4 @@
+sklearn_6_3_preprocessing_data
+6.3. Preprocessing data
+modules/preprocessing.html
+ 6.3.6. Imputation of missing values  Tools for imputing missing values are discussed at Imputation of missing values . 

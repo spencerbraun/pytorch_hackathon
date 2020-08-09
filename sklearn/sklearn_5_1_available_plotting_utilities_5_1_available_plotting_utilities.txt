@@ -1,0 +1,4 @@
+sklearn_5_1_available_plotting_utilities
+5.1. Available Plotting Utilities
+visualizations.html#available-plotting-utilities
+ 5.1. Available Plotting Utilities  5.1.1. Functions  inspection.plot_partial_dependence (…[, …]) Partial dependence plots. metrics.plot_confusion_matrix (estimator, X, …) Plot Confusion Matrix. metrics.plot_precision_recall_curve (…[, …]) Plot Precision Recall Curve for binary classifiers. metrics.plot_roc_curve (estimator, X, y, *[, …]) Plot Receiver operating characteristic (ROC) curve. 5.1.2. Display Objects  inspection.PartialDependenceDisplay (…) Partial Dependence Plot (PDP) visualization. metrics.ConfusionMatrixDisplay (…[, …]) Confusion Matrix visualization. metrics.PrecisionRecallDisplay (precision, …) Precision Recall visualization. metrics.RocCurveDisplay (*, fpr, tpr[, …]) ROC Curve visualization. 

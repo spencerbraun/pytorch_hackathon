@@ -1,0 +1,4 @@
+caret_7_train_models_by_tag
+7 train Models By Tag
+train-models-by-tag.html
+ 7.0.35 Quantile Regression (back to contents ) Non-Convex Penalized Quantile Regression Type: Regression Tuning parameters: lambda (L1 Penalty) penalty (Penalty Type) Required packages: rqPen Quantile Random Forest Type: Regression Tuning parameters: mtry (#Randomly Selected Predictors) Required packages: quantregForest Quantile Regression Neural Network Type: Regression Tuning parameters: n.hidden (#Hidden Units) penalty ( Weight Decay) bag (Bagged Models?) Required packages: qrnn Quantile Regression with LASSO penalty Type: Regression Tuning parameters: lambda (L1 Penalty) Required packages: rqPen 

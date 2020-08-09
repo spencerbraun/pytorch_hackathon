@@ -1,0 +1,4 @@
+caret_7_train_models_by_tag
+7 train Models By Tag
+train-models-by-tag.html
+ 7.0.9 Distance Weighted Discrimination (back to contents ) Distance Weighted Discrimination with Polynomial Kernel Type: Classification Tuning parameters: lambda (Regularization Parameter) qval (q) degree (Polynomial Degree) scale (Scale) Required packages: kerndwd Distance Weighted Discrimination with Radial Basis Function Kernel Type: Classification Tuning parameters: lambda (Regularization Parameter) qval (q) sigma (Sigma) Required packages: kernlab , kerndwd Linear Distance Weighted Discrimination Type: Classification Tuning parameters: lambda (Regularization Parameter) qval (q) Required packages: kerndwd Sparse Distance Weighted Discrimination Type: Classification Tuning parameters: lambda (L1 Penalty) lambda2 (L2 Penalty) Required packages: sdwd A model-specific variable importance metric is available. 

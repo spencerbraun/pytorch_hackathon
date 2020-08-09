@@ -1,0 +1,4 @@
+caret_16_miscellaneous_model_functions
+16 Miscellaneous Model Functions
+miscellaneous-model-functions.html
+ 16.1 Yet Another k -Nearest Neighbor Function knn3 is a function for k -nearest neighbor classification. This particular implementation is a modification of the knn C code and returns the vote information for all of the classes ( knn only returns the probability for the winning class). There is a formula interface via There are also print and predict methods. For the Sonar data in the mlbench package, we can fit an 11-nearest neighbor model: Similarly, caret contains a k -nearest neighbor regression function, knnreg . It returns the average outcome for the neighbor. 

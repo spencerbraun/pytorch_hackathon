@@ -1,0 +1,4 @@
+caret_5_model_training_and_tuning
+5 Model Training and Tuning
+model-training-and-tuning.html
+ 5.9 Fitting Models Without Parameter Tuning In cases where the model tuning values are known, train can be used to fit the model to the entire training set without any resampling or parameter tuning. Using the method  "none" option in trainControl can be used. For example: Note that plot.train , resamples , confusionMatrix.train and several other functions will not work with this object but predict.train and others will: 
