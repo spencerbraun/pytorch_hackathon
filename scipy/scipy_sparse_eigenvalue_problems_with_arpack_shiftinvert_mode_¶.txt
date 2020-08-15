@@ -1,0 +1,4 @@
+scipy_sparse_eigenvalue_problems_with_arpack
+Sparse eigenvalue problems with ARPACK
+arpack.html
+ Shift-invert mode  Shift-invert mode relies on the following observation. For the generalized eigenvalue problem \[A \mathbf{x}  \lambda M \mathbf{x},\] it can be shown that \[(A - \sigma M)^{-1} M \mathbf{x}  \nu \mathbf{x},\] where \[\nu  \frac{1}{\lambda - \sigma}.\] 

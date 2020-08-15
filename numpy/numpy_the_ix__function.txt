@@ -1,0 +1,4 @@
+numpy_the_ix__function
+Basic functions
+#the-ix-function
+ The ix_() function  The ix_ function can be used to combine different vectors so as to obtain the result for each n-uplet. For example, if you want to compute all the a+b*c for all the triplets taken from each of the vectors a, b and c: You could also implement the reduce as follows: and then use it as: The advantage of this version of reduce compared to the normal ufunc.reduce is that it makes use of the Broadcasting Rules in order to avoid creating an argument array the size of the output times the number of vectors. 

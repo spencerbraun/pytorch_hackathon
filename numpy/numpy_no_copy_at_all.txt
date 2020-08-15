@@ -1,0 +1,4 @@
+numpy_no_copy_at_all
+Basic functions
+#no-copy-at-all
+ No Copy at All  Simple assignments make no copy of objects or their data. Python passes mutable objects as references, so function calls make no copy. 

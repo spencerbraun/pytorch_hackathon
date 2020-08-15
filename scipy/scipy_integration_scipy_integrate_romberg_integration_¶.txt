@@ -1,0 +1,4 @@
+scipy_integration_scipy_integrate
+Integration (scipy.integrate)
+integrate.html
+ Romberg Integration  Romberg’s method [WPR] is another method for numerically evaluating an integral. See the help function for romberg for further details. 

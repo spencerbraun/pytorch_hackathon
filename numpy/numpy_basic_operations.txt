@@ -1,0 +1,4 @@
+numpy_basic_operations
+Basic functions
+#basic-operations
+ Basic Operations  Arithmetic operators on arrays apply elementwise . A new array is created and filled with the result. Unlike in many matrix languages, the product operator operates elementwise in NumPy arrays. The matrix product can be performed using the operator (in python >3.5) or the function or method: Some operations, such as and , act in place to modify an existing array rather than create a new one. When operating with arrays of different types, the type of the resulting array corresponds to the more general or precise one (a behavior known as upcasting). Many unary operations, such as computing the sum of all the elements in the array, are implemented as methods of the class. By default, these operations apply to the array as though it were a list of numbers, regardless of its shape. However, by specifying the parameter you can apply an operation along the specified axis of an array: 

@@ -1,0 +1,4 @@
+numpy_vector_stacking
+Basic functions
+#vector-stacking
+ Vector Stacking  How do we construct a 2D array from a list of equally-sized row vectors? In MATLAB this is quite easy: if and are two vectors of the same length you only need do . In NumPy this works via the functions , , and , depending on the dimension in which the stacking is to be done. For example: The logic behind those functions in more than two dimensions can be strange. See also NumPy for Matlab users 

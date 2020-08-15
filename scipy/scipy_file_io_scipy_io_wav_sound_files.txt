@@ -1,0 +1,4 @@
+scipy_file_io_scipy_io
+File IO (scipy.io)
+io.html
+ Wav sound files ( scipy.io.wavfile )  read (filename[, mmap]) Open a WAV file write (filename, rate, data) Write a NumPy array as a WAV file. 

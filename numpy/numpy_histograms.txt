@@ -1,0 +1,4 @@
+numpy_histograms
+Basic functions
+#histograms
+ Histograms  The NumPy function applied to an array returns a pair of vectors: the histogram of the array and a vector of the bin edges. Beware: also has a function to build histograms (called , as in Matlab) that differs from the one in NumPy. The main difference is that plots the histogram automatically, while only generates the data. Further reading  The Python tutorial NumPy Reference SciPy Tutorial SciPy Lecture Notes A matlab, R, IDL, NumPy/SciPy dictionary 

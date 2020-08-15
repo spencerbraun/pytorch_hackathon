@@ -1,0 +1,4 @@
+numpy_simple_array_operations
+Basic functions
+#simple-array-operations
+ Simple Array Operations  See linalg.py in numpy folder for more. Tricks and Tips  Here we give a list of short and useful tips. 

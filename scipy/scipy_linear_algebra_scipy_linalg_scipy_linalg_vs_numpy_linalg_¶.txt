@@ -1,0 +1,4 @@
+scipy_linear_algebra_scipy_linalg
+Linear Algebra (scipy.linalg)
+linalg.html
+ scipy.linalg vs numpy.linalg  scipy.linalg contains all the functions in numpy.linalg . plus some other more advanced ones not contained in . Another advantage of using over is that it is always compiled with BLAS/LAPACK support, while for numpy this is optional. Therefore, the scipy version might be faster depending on how numpy was installed. Therefore, unless you don’t want to add as a dependency to your program, use instead of . 

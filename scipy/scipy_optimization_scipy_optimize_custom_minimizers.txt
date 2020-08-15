@@ -1,0 +1,4 @@
+scipy_optimization_scipy_optimize
+Optimization (scipy.optimize)
+optimize.html
+ Custom minimizers  Sometimes, it may be useful to use a custom method as a (multivariate or univariate) minimizer, for example, when using some library wrappers of minimize (e.g., basinhopping ). We can achieve that by, instead of passing a method name, passing a callable (either a function or an object implementing a __call__ method) as the method parameter. Let us consider an (admittedly rather virtual) need to use a trivial custom multivariate minimization method that will just search the neighborhood in each dimension independently with a fixed step size: This will work just as well in case of univariate optimization: 

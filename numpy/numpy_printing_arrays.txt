@@ -1,0 +1,4 @@
+numpy_printing_arrays
+Basic functions
+#printing-arrays
+ Printing Arrays  When you print an array, NumPy displays it in a similar way to nested lists, but with the following layout: the last axis is printed from left to right, the second-to-last is printed from top to bottom, the rest are also printed from top to bottom, with each slice separated from the next by an empty line. One-dimensional arrays are then printed as rows, bidimensionals as matrices and tridimensionals as lists of matrices. See below to get more details on . If an array is too large to be printed, NumPy automatically skips the central part of the array and only prints the corners: To disable this behaviour and force NumPy to print the entire array, you can change the printing options using . 

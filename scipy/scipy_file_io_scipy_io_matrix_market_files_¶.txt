@@ -1,0 +1,4 @@
+scipy_file_io_scipy_io
+File IO (scipy.io)
+io.html
+ Matrix Market files  mminfo (source) Return size and storage parameters from Matrix Market file-like ‘source’. mmread (source) Reads the contents of a Matrix Market file-like ‘source’ into a matrix. mmwrite (target, a[, comment, field, …]) Writes the sparse or dense array a to Matrix Market file-like target . 

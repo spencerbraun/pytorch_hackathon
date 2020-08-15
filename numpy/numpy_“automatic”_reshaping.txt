@@ -1,0 +1,4 @@
+numpy_“automatic”_reshaping
+Basic functions
+#automatic-reshaping
+ “Automatic” Reshaping  To change the dimensions of an array, you can omit one of the sizes which will then be deduced automatically: 

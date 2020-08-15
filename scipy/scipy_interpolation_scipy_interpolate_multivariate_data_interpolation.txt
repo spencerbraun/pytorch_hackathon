@@ -1,0 +1,4 @@
+scipy_interpolation_scipy_interpolate
+Interpolation (scipy.interpolate)
+interpolate.html
+ Multivariate data interpolation ( griddata )  Suppose you have multidimensional data, for instance, for an underlying function f(x, y) you only know the values at points (x[i], y[i]) that do not form a regular grid. Suppose we want to interpolate the 2-D function on a grid in [0, 1]x[0, 1] but we only know its values at 1000 data points: This can be done with griddata – below, we try out all of the interpolation methods: One can see that the exact result is reproduced by all of the methods to some degree, but for this smooth function the piecewise cubic interpolant gives the best results: 

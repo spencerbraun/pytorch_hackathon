@@ -1,0 +1,4 @@
+numpy_deep_copy
+Basic functions
+#deep-copy
+ Deep Copy  The method makes a complete copy of the array and its data. Sometimes should be called after slicing if the original array is not required anymore. For example, suppose is a huge intermediate result and the final result only contains a small fraction of , a deep copy should be made when constructing with slicing: If is used instead, is referenced by and will persist in memory even if is executed. 

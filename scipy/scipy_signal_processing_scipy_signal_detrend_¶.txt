@@ -1,0 +1,4 @@
+scipy_signal_processing_scipy_signal
+Signal Processing (scipy.signal)
+signal.html
+ Detrend  SciPy provides the function detrend to remove a constant or linear trend in a data series in order to see effect of higher order. The example below removes the constant and linear trend of a second-order polynomial time series and plots the remaining signal components. References Some further reading and related software: 1 N.R. Lomb “Least-squares frequency analysis of unequally spaced data”, Astrophysics and Space Science, vol 39, pp. 447-462, 1976 2 J.D. Scargle “Studies in astronomical time series analysis. II - Statistical aspects of spectral analysis of unevenly spaced data”, The Astrophysical Journal, vol 263, pp. 835-853, 1982 3 R.H.D. Townsend, “Fast calculation of the Lomb-Scargle periodogram using graphics processing units.”, The Astrophysical Journal Supplement Series, vol 191, pp. 247-253, 2010 

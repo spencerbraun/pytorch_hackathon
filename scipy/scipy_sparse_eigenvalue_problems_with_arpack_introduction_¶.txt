@@ -1,0 +1,4 @@
+scipy_sparse_eigenvalue_problems_with_arpack
+Sparse eigenvalue problems with ARPACK
+arpack.html
+ Introduction  ARPACK 1 is a Fortran package which provides routines for quickly finding a few eigenvalues/eigenvectors of large sparse matrices. In order to find these solutions, it requires only left-multiplication by the matrix in question. This operation is performed through a reverse-communication interface. The result of this structure is that ARPACK is able to find eigenvalues and eigenvectors of any linear function mapping a vector to a vector. All of the functionality provided in ARPACK is contained within the two high-level interfaces scipy.sparse.linalg.eigs and scipy.sparse.linalg.eigsh . eigs provides interfaces for finding the eigenvalues/vectors of real or complex nonsymmetric square matrices, while eigsh provides interfaces for real-symmetric or complex-hermitian matrices. 

@@ -1,0 +1,4 @@
+scipy_linear_algebra_scipy_linalg
+Linear Algebra (scipy.linalg)
+linalg.html
+ numpy.matrix vs 2-D numpy.ndarray  The classes that represent matrices, and basic operations, such as matrix multiplications and transpose are a part of . For convenience, we summarize the differences between numpy.matrix and numpy.ndarray here. is matrix class that has a more convenient interface than for matrix operations. This class supports, for example, MATLAB-like creation syntax via the semicolon, has matrix multiplication as default for the operator, and contains and members that serve as shortcuts for inverse and transpose: Despite its convenience, the use of the class is discouraged, since it adds nothing that cannot be accomplished with 2-D objects, and may lead to a confusion of which class is being used. For example, the above code can be rewritten as: operations can be applied equally to or to 2D objects. 

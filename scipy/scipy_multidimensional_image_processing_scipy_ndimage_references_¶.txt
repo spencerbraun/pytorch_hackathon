@@ -1,0 +1,4 @@
+scipy_multidimensional_image_processing_scipy_ndimage
+Multidimensional image processing (scipy.ndimage)
+ndimage.html
+ References  1 M. Unser, “Splines: A Perfect Fit for Signal and Image Processing,” IEEE Signal Processing Magazine, vol. 16, no. 6, pp. 22-38, November 1999. 2 G. Borgefors, “Distance transformations in arbitrary dimensions.”, Computer Vision, Graphics, and Image Processing, 27:321-345, 1984. 3 C. R. Maurer, Jr., R. Qi, and V. Raghavan, “A linear time algorithm for computing exact euclidean distance transforms of binary images in arbitrary dimensions. IEEE Trans. PAMI 25, 265-270, 2003. 4 P. Felkel, R. Wegenkittl, and M. Bruckschwaiger, “Implementation and Complexity of the Watershed-from-Markers Algorithm Computed as a Minimal Cost Forest.”, Eurographics 2001, pp. C:26-35. 

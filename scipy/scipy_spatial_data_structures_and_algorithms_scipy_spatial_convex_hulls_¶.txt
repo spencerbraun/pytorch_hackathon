@@ -1,0 +1,4 @@
+scipy_spatial_data_structures_and_algorithms_scipy_spatial
+Spatial data structures and algorithms (scipy.spatial)
+spatial.html
+ Convex hulls  A convex hull is the smallest convex object containing all points in a given point set. These can be computed via the Qhull wrappers in scipy.spatial as follows: The convex hull is represented as a set of N 1-D simplices, which in 2-D means line segments. The storage scheme is exactly the same as for the simplices in the Delaunay triangulation discussed above. We can illustrate the above result: The same can be achieved with scipy.spatial.convex_hull_plot_2d . 

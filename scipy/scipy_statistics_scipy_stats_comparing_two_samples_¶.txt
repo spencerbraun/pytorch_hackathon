@@ -1,0 +1,4 @@
+scipy_statistics_scipy_stats
+Statistics (scipy.stats)
+stats.html
+ Comparing two samples  In the following, we are given two samples, which can come either from the same or from different distribution, and we want to test whether these samples have the same statistical properties. Comparing means  Test with sample with identical means: Test with sample with different means: Kolmogorov-Smirnov test for two samples ks_2samp  For the example, where both samples are drawn from the same distribution, we cannot reject the null hypothesis, since the pvalue is high In the second example, with different location, i.e., means, we can reject the null hypothesis, since the pvalue is below 1% 

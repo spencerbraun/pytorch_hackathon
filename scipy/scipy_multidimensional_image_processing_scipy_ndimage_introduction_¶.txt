@@ -1,0 +1,4 @@
+scipy_multidimensional_image_processing_scipy_ndimage
+Multidimensional image processing (scipy.ndimage)
+ndimage.html
+ Introduction  Image processing and analysis are generally seen as operations on 2-D arrays of values. There are, however, a number of fields where images of higher dimensionality must be analyzed. Good examples of these are medical imaging and biological imaging. numpy is suited very well for this type of applications due to its inherent multidimensional nature. The scipy.ndimage packages provides a number of general image processing and analysis functions that are designed to operate with arrays of arbitrary dimensionality. The packages currently includes: functions for linear and non-linear filtering, binary morphology, B-spline interpolation, and object measurements. 

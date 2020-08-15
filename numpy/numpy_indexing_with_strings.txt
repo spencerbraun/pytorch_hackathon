@@ -1,0 +1,4 @@
+numpy_indexing_with_strings
+Basic functions
+#indexing-with-strings
+ Indexing with strings  See Structured arrays . Linear Algebra  Work in progress. Basic linear algebra to be included here. 

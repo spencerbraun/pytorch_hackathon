@@ -1,0 +1,4 @@
+scipy_special_functions_scipy_special
+Special functions (scipy.special)
+special.html
+ Functions not in scipy.special  Some functions are not included in special because they are straightforward to implement with existing functions in NumPy and SciPy. To prevent reinventing the wheel, this section provides implementations of several such functions, which hopefully illustrate how to handle similar functions. In all examples NumPy is imported as and special is imported as . The binary entropy function : A rectangular step function on [0, 1]: Translating and scaling can be used to get an arbitrary step function. The ramp function : 

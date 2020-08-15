@@ -1,0 +1,4 @@
+numpy_universal_functions
+Basic functions
+#universal-functions
+ Universal Functions  NumPy provides familiar mathematical functions such as sin, cos, and exp. In NumPy, these are called “universal functions”( ). Within NumPy, these functions operate elementwise on an array, producing an array as output. See also all , any , apply_along_axis , argmax , argmin , argsort , average , bincount , ceil , clip , conj , corrcoef , cov , cross , cumprod , cumsum , diff , dot , floor , inner , invert , lexsort , max , maximum , mean , median , min , minimum , nonzero , outer , prod , re , round , sort , std , sum , trace , transpose , var , vdot , vectorize , where 

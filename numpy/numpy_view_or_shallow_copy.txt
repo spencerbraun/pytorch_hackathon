@@ -1,0 +1,4 @@
+numpy_view_or_shallow_copy
+Basic functions
+#view-or-shallow-copy
+ View or Shallow Copy  Different array objects can share the same data. The method creates a new array object that looks at the same data. Slicing an array returns a view of it: 

@@ -1,0 +1,4 @@
+numpy_splitting_one_array_into_several_smaller_ones
+Basic functions
+#splitting-one-array-into-several-smaller-ones
+ Splitting one array into several smaller ones  Using hsplit , you can split an array along its horizontal axis, either by specifying the number of equally shaped arrays to return, or by specifying the columns after which the division should occur: vsplit splits along the vertical axis, and array_split allows one to specify along which axis to split. Copies and Views  When operating and manipulating arrays, their data is sometimes copied into a new array and sometimes not. This is often a source of confusion for beginners. There are three cases: 

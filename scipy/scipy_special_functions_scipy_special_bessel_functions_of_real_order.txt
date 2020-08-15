@@ -1,0 +1,4 @@
+scipy_special_functions_scipy_special
+Special functions (scipy.special)
+special.html
+ Bessel functions of real order( jv , jn_zeros )  Bessel functions are a family of solutions to Bessel’s differential equation with real or complex order alpha: \[x^2 \frac{d^2 y}{dx^2} + x \frac{dy}{dx} + (x^2 - \alpha^2)y  0\] Among other uses, these functions arise in wave propagation problems, such as the vibrational modes of a thin drum head. Here is an example of a circular drum head anchored at the edge: 

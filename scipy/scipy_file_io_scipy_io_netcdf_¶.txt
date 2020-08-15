@@ -1,0 +1,4 @@
+scipy_file_io_scipy_io
+File IO (scipy.io)
+io.html
+ Netcdf  netcdf_file (filename[, mode, mmap, version, …]) A file object for NetCDF data. Allows reading of NetCDF files (version of pupynere package) 
