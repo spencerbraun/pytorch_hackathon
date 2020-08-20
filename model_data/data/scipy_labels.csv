@@ -1,0 +1,70 @@
+scipy|Python|scipy_basic_functions|Basic functions|basic.html|Interaction with NumPy 
+scipy|Python|scipy_compressed_sparse_graph_routines_scipy_sparse_csgraph|Compressed Sparse Graph Routines (scipy.sparse.csgraph)|csgraph.html|Example: Word Ladders 
+scipy|Python|scipy_file_io_scipy_io|File IO (scipy.io)|io.html|Arff files ( scipy.io.arff
+scipy|Python|scipy_file_io_scipy_io|File IO (scipy.io)|io.html|IDL files  readsav
+scipy|Python|scipy_file_io_scipy_io|File IO (scipy.io)|io.html|MATLAB files  loadmat
+scipy|Python|scipy_file_io_scipy_io|File IO (scipy.io)|io.html|Matrix Market files 
+scipy|Python|scipy_file_io_scipy_io|File IO (scipy.io)|io.html|Netcdf  netcdf_file (filename[, mode, mmap, version, …])
+scipy|Python|scipy_file_io_scipy_io|File IO (scipy.io)|io.html|Wav sound files (
+scipy|Python|scipy_fourier_transforms_scipy_fft|Fourier Transforms (scipy.fft)|fft.html|Discrete Cosine Transforms 
+scipy|Python|scipy_fourier_transforms_scipy_fft|Fourier Transforms (scipy.fft)|fft.html|Discrete Sine Transforms 
+scipy|Python|scipy_fourier_transforms_scipy_fft|Fourier Transforms (scipy.fft)|fft.html|Fast Fourier transforms 
+scipy|Python|scipy_fourier_transforms_scipy_fft|Fourier Transforms (scipy.fft)|fft.html|References  CT65 Cooley,
+scipy|Python|scipy_integration_scipy_integrate|Integration (scipy.integrate)|integrate.html|Faster integration using low-level
+scipy|Python|scipy_integration_scipy_integrate|Integration (scipy.integrate)|integrate.html|Gaussian quadrature  A
+scipy|Python|scipy_integration_scipy_integrate|Integration (scipy.integrate)|integrate.html|General integration ( quad
+scipy|Python|scipy_integration_scipy_integrate|Integration (scipy.integrate)|integrate.html|General multiple integration (
+scipy|Python|scipy_integration_scipy_integrate|Integration (scipy.integrate)|integrate.html|Integrating using Samples 
+scipy|Python|scipy_integration_scipy_integrate|Integration (scipy.integrate)|integrate.html|Ordinary differential equations (
+scipy|Python|scipy_integration_scipy_integrate|Integration (scipy.integrate)|integrate.html|Romberg Integration  Romberg’s
+scipy|Python|scipy_interpolation_scipy_interpolate|Interpolation (scipy.interpolate)|interpolate.html|1-D interpolation ( interp1d
+scipy|Python|scipy_interpolation_scipy_interpolate|Interpolation (scipy.interpolate)|interpolate.html|Multivariate data interpolation (
+scipy|Python|scipy_interpolation_scipy_interpolate|Interpolation (scipy.interpolate)|interpolate.html|Spline interpolation  Spline
+scipy|Python|scipy_introduction|Introduction|general.html|Finding Documentation  SciPy
+scipy|Python|scipy_introduction|Introduction|general.html|SciPy Organization  SciPy
+scipy|Python|scipy_linear_algebra_scipy_linalg|Linear Algebra (scipy.linalg)|linalg.html|Basic routines  Finding
+scipy|Python|scipy_linear_algebra_scipy_linalg|Linear Algebra (scipy.linalg)|linalg.html|Decompositions  In many
+scipy|Python|scipy_linear_algebra_scipy_linalg|Linear Algebra (scipy.linalg)|linalg.html|Matrix functions  Consider
+scipy|Python|scipy_linear_algebra_scipy_linalg|Linear Algebra (scipy.linalg)|linalg.html|numpy.matrix vs 2-D numpy.ndarray
+scipy|Python|scipy_linear_algebra_scipy_linalg|Linear Algebra (scipy.linalg)|linalg.html|scipy.linalg vs numpy.linalg 
+scipy|Python|scipy_linear_algebra_scipy_linalg|Linear Algebra (scipy.linalg)|linalg.html|Special matrices  SciPy
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Distance transforms  Distance
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Extending scipy.ndimage in C
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Filter functions  The
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Interpolation functions  This
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Introduction  Image processing
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Morphology  Binary morphology
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Object measurements  Given
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Properties shared by all
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|References  1 M.
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Segmentation and labeling 
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Constrained minimization of multivariate
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Custom minimizers  Sometimes,
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Global optimization  Global
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Least-squares minimization ( least_squares
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Linear programming ( linprog
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Root finding  Scalar
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Unconstrained minimization of multivariate
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Univariate function minimizers (
+scipy|Python|scipy_signal_processing_scipy_signal|Signal Processing (scipy.signal)|signal.html|B-splines  A B-spline
+scipy|Python|scipy_signal_processing_scipy_signal|Signal Processing (scipy.signal)|signal.html|Detrend  SciPy provides
+scipy|Python|scipy_signal_processing_scipy_signal|Signal Processing (scipy.signal)|signal.html|Filtering  Filtering is
+scipy|Python|scipy_signal_processing_scipy_signal|Signal Processing (scipy.signal)|signal.html|Spectral Analysis  Periodogram
+scipy|Python|scipy_sparse_eigenvalue_problems_with_arpack|Sparse eigenvalue problems with ARPACK|arpack.html|Basic functionality  ARPACK
+scipy|Python|scipy_sparse_eigenvalue_problems_with_arpack|Sparse eigenvalue problems with ARPACK|arpack.html|Examples  Imagine you’d
+scipy|Python|scipy_sparse_eigenvalue_problems_with_arpack|Sparse eigenvalue problems with ARPACK|arpack.html|Introduction  ARPACK 1
+scipy|Python|scipy_sparse_eigenvalue_problems_with_arpack|Sparse eigenvalue problems with ARPACK|arpack.html|References  1 http://www.caam.rice.edu/software/ARPACK/
+scipy|Python|scipy_sparse_eigenvalue_problems_with_arpack|Sparse eigenvalue problems with ARPACK|arpack.html|Shift-invert mode  Shift-invert
+scipy|Python|scipy_sparse_eigenvalue_problems_with_arpack|Sparse eigenvalue problems with ARPACK|arpack.html|Use of LinearOperator 
+scipy|Python|scipy_spatial_data_structures_and_algorithms_scipy_spatial|Spatial data structures and algorithms (scipy.spatial)|spatial.html|Convex hulls  A
+scipy|Python|scipy_spatial_data_structures_and_algorithms_scipy_spatial|Spatial data structures and algorithms (scipy.spatial)|spatial.html|Delaunay triangulations  The
+scipy|Python|scipy_spatial_data_structures_and_algorithms_scipy_spatial|Spatial data structures and algorithms (scipy.spatial)|spatial.html|Voronoi diagrams  A
+scipy|Python|scipy_special_functions_scipy_special|Special functions (scipy.special)|special.html|Bessel functions of real
+scipy|Python|scipy_special_functions_scipy_special|Special functions (scipy.special)|special.html|Cython Bindings for Special
+scipy|Python|scipy_special_functions_scipy_special|Special functions (scipy.special)|special.html|Functions not in scipy.special
+scipy|Python|scipy_statistics_scipy_stats|Statistics (scipy.stats)|stats.html|Analysing one sample 
+scipy|Python|scipy_statistics_scipy_stats|Statistics (scipy.stats)|stats.html|Building specific distributions 
+scipy|Python|scipy_statistics_scipy_stats|Statistics (scipy.stats)|stats.html|Comparing two samples 
+scipy|Python|scipy_statistics_scipy_stats|Statistics (scipy.stats)|stats.html|Introduction  In this
+scipy|Python|scipy_statistics_scipy_stats|Statistics (scipy.stats)|stats.html|Kernel density estimation 
+scipy|Python|scipy_statistics_scipy_stats|Statistics (scipy.stats)|stats.html|Random variables  There

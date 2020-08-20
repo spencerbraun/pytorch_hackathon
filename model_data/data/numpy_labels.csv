@@ -1,0 +1,22 @@
+numpy|Python|numpy_an_example|Basic functions|#an-example|An example
+numpy|Python|numpy_array_creation|Basic functions|#array-creation|Array Creation  There
+numpy|Python|numpy_basic_operations|Basic functions|#basic-operations|Basic Operations  Arithmetic
+numpy|Python|numpy_broadcasting_rules|Basic functions|#broadcasting-rules|Broadcasting rules  Broadcasting
+numpy|Python|numpy_changing_the_shape_of_an_array|Basic functions|#changing-the-shape-of-an-array|Changing the shape of
+numpy|Python|numpy_deep_copy|Basic functions|#deep-copy|Deep Copy  The
+numpy|Python|numpy_functions_and_methods_overview|Basic functions|#functions-and-methods-overview|Functions and Methods Overview
+numpy|Python|numpy_histograms|Basic functions|#histograms|Histograms  The NumPy
+numpy|Python|numpy_indexing_slicing_and_iterating|Basic functions|#indexing-slicing-and-iterating|Indexing, Slicing and Iterating
+numpy|Python|numpy_indexing_with_arrays_of_indices|Basic functions|#indexing-with-arrays-of-indices|Indexing with Arrays of
+numpy|Python|numpy_indexing_with_boolean_arrays|Basic functions|#indexing-with-boolean-arrays|Indexing with Boolean Arrays
+numpy|Python|numpy_indexing_with_strings|Basic functions|#indexing-with-strings|Indexing with strings 
+numpy|Python|numpy_no_copy_at_all|Basic functions|#no-copy-at-all|No Copy at All
+numpy|Python|numpy_printing_arrays|Basic functions|#printing-arrays|Printing Arrays  When
+numpy|Python|numpy_simple_array_operations|Basic functions|#simple-array-operations|Simple Array Operations 
+numpy|Python|numpy_splitting_one_array_into_several_smaller_ones|Basic functions|#splitting-one-array-into-several-smaller-ones|Splitting one array into
+numpy|Python|numpy_stacking_together_different_arrays|Basic functions|#stacking-together-different-arrays|Stacking together different arrays
+numpy|Python|numpy_the_ix__function|Basic functions|#the-ix-function|The ix_() function 
+numpy|Python|numpy_universal_functions|Basic functions|#universal-functions|Universal Functions  NumPy
+numpy|Python|numpy_vector_stacking|Basic functions|#vector-stacking|Vector Stacking  How
+numpy|Python|numpy_view_or_shallow_copy|Basic functions|#view-or-shallow-copy|View or Shallow Copy
+numpy|Python|numpy_“automatic”_reshaping|Basic functions|#automatic-reshaping|“Automatic” Reshaping  To

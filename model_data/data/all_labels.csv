@@ -1,0 +1,476 @@
+text
+caret|R|caret_11_subsampling_for_class_imbalances|11 Subsampling For Class Imbalances|subsampling-for-class-imbalances.html|11.1 Subsampling Techniques To
+caret|R|caret_11_subsampling_for_class_imbalances|11 Subsampling For Class Imbalances|subsampling-for-class-imbalances.html|11.2 Subsampling During Resampling
+caret|R|caret_11_subsampling_for_class_imbalances|11 Subsampling For Class Imbalances|subsampling-for-class-imbalances.html|11.3 Complications The
+caret|R|caret_11_subsampling_for_class_imbalances|11 Subsampling For Class Imbalances|subsampling-for-class-imbalances.html|11.4 Using Custom Subsampling
+caret|R|caret_12_using_recipes_with_train|12 Using Recipes with train|using-recipes-with-train.html|12.1 Why Should
+caret|R|caret_12_using_recipes_with_train|12 Using Recipes with train|using-recipes-with-train.html|12.2 An Example The QSARdata
+caret|R|caret_12_using_recipes_with_train|12 Using Recipes with train|using-recipes-with-train.html|12.3 Case Weights For
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.1 Introduction The
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.2 Illustrative Example
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.3 Model Components You
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.4 The
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.5 Illustrative Example
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.6 Illustrative Example
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.7 Illustrative Example
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.8 Illustrative Example
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.9 Illustrative Example
+caret|R|caret_15_variable_importance|15 Variable Importance|variable-importance.html|15.1 Model Specific Metrics
+caret|R|caret_15_variable_importance|15 Variable Importance|variable-importance.html|15.2 Model Independent Metrics
+caret|R|caret_15_variable_importance|15 Variable Importance|variable-importance.html|15.3 An Example On
+caret|R|caret_16_miscellaneous_model_functions|16 Miscellaneous Model Functions|miscellaneous-model-functions.html|16.1 Yet Another
+caret|R|caret_16_miscellaneous_model_functions|16 Miscellaneous Model Functions|miscellaneous-model-functions.html|16.2 Partial Least Squares
+caret|R|caret_16_miscellaneous_model_functions|16 Miscellaneous Model Functions|miscellaneous-model-functions.html|16.3 Bagged MARS
+caret|R|caret_16_miscellaneous_model_functions|16 Miscellaneous Model Functions|miscellaneous-model-functions.html|16.4 Bagging The
+caret|R|caret_16_miscellaneous_model_functions|16 Miscellaneous Model Functions|miscellaneous-model-functions.html|16.5 Model Averaged Neural
+caret|R|caret_16_miscellaneous_model_functions|16 Miscellaneous Model Functions|miscellaneous-model-functions.html|16.6 Neural Networks
+caret|R|caret_16_miscellaneous_model_functions|16 Miscellaneous Model Functions|miscellaneous-model-functions.html|16.7 Independent Component Regression
+caret|R|caret_17_measuring_performance|17 Measuring Performance|measuring-performance.html|17.1 Measures
+caret|R|caret_17_measuring_performance|17 Measuring Performance|measuring-performance.html|17.2 Measures
+caret|R|caret_17_measuring_performance|17 Measuring Performance|measuring-performance.html|17.3 Measures
+caret|R|caret_17_measuring_performance|17 Measuring Performance|measuring-performance.html|17.4 Lift Curves The
+caret|R|caret_17_measuring_performance|17 Measuring Performance|measuring-performance.html|17.5 Calibration Curves Calibration
+caret|R|caret_18_feature_selection_overview|18 Feature Selection Overview|feature-selection-overview.html|18.1 Models
+caret|R|caret_18_feature_selection_overview|18 Feature Selection Overview|feature-selection-overview.html|18.2 Feature Selection Methods
+caret|R|caret_18_feature_selection_overview|18 Feature Selection Overview|feature-selection-overview.html|18.3 External Validation It
+caret|R|caret_19_feature_selection_using_univariate_filters|19 Feature Selection using Univariate Filters|feature-selection-using-univariate-filters.html|19.1 Univariate Filters Another
+caret|R|caret_19_feature_selection_using_univariate_filters|19 Feature Selection using Univariate Filters|feature-selection-using-univariate-filters.html|19.2 Basic Syntax Similar
+caret|R|caret_19_feature_selection_using_univariate_filters|19 Feature Selection using Univariate Filters|feature-selection-using-univariate-filters.html|19.3 The Example Returning
+caret|R|caret_20_recursive_feature_elimination|20 Recursive Feature Elimination|recursive-feature-elimination.html|20.1 Backwards Selection First
+caret|R|caret_20_recursive_feature_elimination|20 Recursive Feature Elimination|recursive-feature-elimination.html|20.2 Resampling
+caret|R|caret_20_recursive_feature_elimination|20 Recursive Feature Elimination|recursive-feature-elimination.html|20.3 Recursive Feature Elimination
+caret|R|caret_20_recursive_feature_elimination|20 Recursive Feature Elimination|recursive-feature-elimination.html|20.4 An Example To
+caret|R|caret_20_recursive_feature_elimination|20 Recursive Feature Elimination|recursive-feature-elimination.html|20.5 Helper Functions To
+caret|R|caret_20_recursive_feature_elimination|20 Recursive Feature Elimination|recursive-feature-elimination.html|20.6 The Example For
+caret|R|caret_20_recursive_feature_elimination|20 Recursive Feature Elimination|recursive-feature-elimination.html|20.7 Using
+caret|R|caret_21_feature_selection_using_genetic_algorithms|21 Feature Selection using Genetic Algorithms|feature-selection-using-genetic-algorithms.html|21.1 Genetic Algorithms Genetic
+caret|R|caret_21_feature_selection_using_genetic_algorithms|21 Feature Selection using Genetic Algorithms|feature-selection-using-genetic-algorithms.html|21.2 Internal
+caret|R|caret_21_feature_selection_using_genetic_algorithms|21 Feature Selection using Genetic Algorithms|feature-selection-using-genetic-algorithms.html|21.3 Basic Syntax The
+caret|R|caret_21_feature_selection_using_genetic_algorithms|21 Feature Selection using Genetic Algorithms|feature-selection-using-genetic-algorithms.html|21.4 Genetic Algorithm Example
+caret|R|caret_21_feature_selection_using_genetic_algorithms|21 Feature Selection using Genetic Algorithms|feature-selection-using-genetic-algorithms.html|21.5 Customizing
+caret|R|caret_21_feature_selection_using_genetic_algorithms|21 Feature Selection using Genetic Algorithms|feature-selection-using-genetic-algorithms.html|21.6 The Example Revisited The
+caret|R|caret_21_feature_selection_using_genetic_algorithms|21 Feature Selection using Genetic Algorithms|feature-selection-using-genetic-algorithms.html|21.7 Using Recipes Like
+caret|R|caret_22_feature_selection_using_simulated_annealing|22 Feature Selection using Simulated Annealing|feature-selection-using-simulated-annealing.html|22.1 Simulated Annealing Simulated
+caret|R|caret_22_feature_selection_using_simulated_annealing|22 Feature Selection using Simulated Annealing|feature-selection-using-simulated-annealing.html|22.2 Internal
+caret|R|caret_22_feature_selection_using_simulated_annealing|22 Feature Selection using Simulated Annealing|feature-selection-using-simulated-annealing.html|22.3 Basic Syntax The
+caret|R|caret_22_feature_selection_using_simulated_annealing|22 Feature Selection using Simulated Annealing|feature-selection-using-simulated-annealing.html|22.4 Simulated Annealing Example
+caret|R|caret_22_feature_selection_using_simulated_annealing|22 Feature Selection using Simulated Annealing|feature-selection-using-simulated-annealing.html|22.5 Customizing
+caret|R|caret_22_feature_selection_using_simulated_annealing|22 Feature Selection using Simulated Annealing|feature-selection-using-simulated-annealing.html|22.6 Using Recipes Similar
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.10 Animal Scat Data Reid
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.1 Blood-Brain Barrier Data
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.2 COX-
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.3 DHFR Inhibition Sutherland
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.4 Tecator NIR Data These
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.5 Fatty Acid Composition
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.6 German Credit Data Data
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.7 Kelly Blue Book Resale
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.8 Cell Body Segmentation
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.9 Sacramento House Price
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.10 Class Distance Calculations
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.1 Creating Dummy Variables
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.2 Zero-
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.3 Identifying Correlated Predictors
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.4 Linear Dependencies The
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.5 The
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.6 Centering
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.7 Imputation
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.8 Transforming Predictors In
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.9 Putting It All
+caret|R|caret_4_data_splitting|4 Data Splitting|data-splitting.html|4.1 Simple Splitting Based
+caret|R|caret_4_data_splitting|4 Data Splitting|data-splitting.html|4.2 Splitting Based
+caret|R|caret_4_data_splitting|4 Data Splitting|data-splitting.html|4.3 Data Splitting
+caret|R|caret_4_data_splitting|4 Data Splitting|data-splitting.html|4.4 Simple Splitting
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.1 Model Training
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.2 An Example The Sonar
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.3 Basic Parameter Tuning By
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.4 Notes
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.5 Customizing
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.6 Choosing
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.7 Extracting Predictions
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.8 Exploring
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.9 Fitting Models Without
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.10 Ensemble Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.11 Feature Extraction
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.12 Feature Selection Wrapper
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.13 Gaussian Process
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.14 Generalized Additive Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.15 Generalized Linear Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.16 Handle Missing Predictor
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.17 Implicit Feature Selection
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.18 Kernel Method
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.19 L
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.1 Accepts Case Weights
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.20 L
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.21 Linear Classifier
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.22 Linear Regression
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.23 Logic Regression
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.24 Logistic Regression
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.25 Mixture Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.26 Model Tree
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.27 Multivariate Adaptive Regression
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.28 Neural Network
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.29 Oblique Tree
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.2 Bagging
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.30 Ordinal Outcomes
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.31 Partial Least Squares
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.32 Patient Rule Induction
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.33 Polynomial Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.34 Prototype Models
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.35 Quantile Regression
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.36 Radial Basis Function
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.37 Random Forest
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.38 Regularization
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.39 Relevance Vector Machines
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.3 Bayesian Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.40 Ridge Regression
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.41 Robust Methods
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.42 Robust Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.43 ROC Curves
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.44 Rule-Based Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.45 Self-Organising Maps
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.46 String Kernel
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.47 Support Vector Machines
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.48 Supports Class Probabilities
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.49 Text Mining
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.4 Binary Predictors Only
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.50 Tree-Based Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.51 Two Class Only
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.5 Boosting
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.6 Categorical Predictors Only
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.7 Cost Sensitive Learning
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.8 Discriminant Analysis
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.9 Distance Weighted Discrimination
+numpy|Python|numpy_an_example|Basic functions|#an-example|An example
+numpy|Python|numpy_array_creation|Basic functions|#array-creation|Array Creation  There
+numpy|Python|numpy_basic_operations|Basic functions|#basic-operations|Basic Operations  Arithmetic
+numpy|Python|numpy_broadcasting_rules|Basic functions|#broadcasting-rules|Broadcasting rules  Broadcasting
+numpy|Python|numpy_changing_the_shape_of_an_array|Basic functions|#changing-the-shape-of-an-array|Changing the shape of
+numpy|Python|numpy_deep_copy|Basic functions|#deep-copy|Deep Copy  The
+numpy|Python|numpy_functions_and_methods_overview|Basic functions|#functions-and-methods-overview|Functions and Methods Overview
+numpy|Python|numpy_histograms|Basic functions|#histograms|Histograms  The NumPy
+numpy|Python|numpy_indexing_slicing_and_iterating|Basic functions|#indexing-slicing-and-iterating|Indexing, Slicing and Iterating
+numpy|Python|numpy_indexing_with_arrays_of_indices|Basic functions|#indexing-with-arrays-of-indices|Indexing with Arrays of
+numpy|Python|numpy_indexing_with_boolean_arrays|Basic functions|#indexing-with-boolean-arrays|Indexing with Boolean Arrays
+numpy|Python|numpy_indexing_with_strings|Basic functions|#indexing-with-strings|Indexing with strings 
+numpy|Python|numpy_no_copy_at_all|Basic functions|#no-copy-at-all|No Copy at All
+numpy|Python|numpy_printing_arrays|Basic functions|#printing-arrays|Printing Arrays  When
+numpy|Python|numpy_simple_array_operations|Basic functions|#simple-array-operations|Simple Array Operations 
+numpy|Python|numpy_splitting_one_array_into_several_smaller_ones|Basic functions|#splitting-one-array-into-several-smaller-ones|Splitting one array into
+numpy|Python|numpy_stacking_together_different_arrays|Basic functions|#stacking-together-different-arrays|Stacking together different arrays
+numpy|Python|numpy_the_ix__function|Basic functions|#the-ix-function|The ix_() function 
+numpy|Python|numpy_universal_functions|Basic functions|#universal-functions|Universal Functions  NumPy
+numpy|Python|numpy_vector_stacking|Basic functions|#vector-stacking|Vector Stacking  How
+numpy|Python|numpy_view_or_shallow_copy|Basic functions|#view-or-shallow-copy|View or Shallow Copy
+numpy|Python|numpy_“automatic”_reshaping|Basic functions|#automatic-reshaping|“Automatic” Reshaping  To
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.1. Classification  DecisionTreeClassifier
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.2. Regression  Decision
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.3. Multi-output
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.4. Complexity  In
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.5. Tips
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.6. Tree
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.7. Mathematical
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.8. Minimal Cost-Complexity Pruning
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.1. Bagging
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.2. Forests
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.3. AdaBoost  The
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.4. Gradient Tree Boosting
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.5. Histogram-Based Gradient Boosting
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.6. Voting Classifier  The
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.7. Voting Regressor  The
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.8. Stacked
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.1. Multilabel
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.2. One-Vs-The-Rest  This
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.3. One-Vs-One  OneVsOneClassifier
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.4. Error-Correcting Output-Codes 
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.5. Multioutput
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.6. Multioutput
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.7. Classifier Chain 
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.8. Regressor Chain 
+sklearn|Python|sklearn_1_13_feature_selection|1.13. Feature selection|modules/feature_selection.html|1.13.1. Removing
+sklearn|Python|sklearn_1_13_feature_selection|1.13. Feature selection|modules/feature_selection.html|1.13.2. Univariate
+sklearn|Python|sklearn_1_13_feature_selection|1.13. Feature selection|modules/feature_selection.html|1.13.3. Recursive
+sklearn|Python|sklearn_1_13_feature_selection|1.13. Feature selection|modules/feature_selection.html|1.13.4. Feature
+sklearn|Python|sklearn_1_13_feature_selection|1.13. Feature selection|modules/feature_selection.html|1.13.5. Feature
+sklearn|Python|sklearn_1_14_semi-supervised|1.14. Semi-Supervised|modules/label_propagation.html|1.14.1. Label Propagation 
+sklearn|Python|sklearn_1_16_probability_calibration|1.16. Probability calibration|modules/calibration.html|1.16.1. Calibration
+sklearn|Python|sklearn_1_16_probability_calibration|1.16. Probability calibration|modules/calibration.html|1.16.2. Calibrating
+sklearn|Python|sklearn_1_16_probability_calibration|1.16. Probability calibration|modules/calibration.html|1.16.3. Usage  The
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.1. Multi-layer Perceptron 
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.2. Classification  Class
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.3. Regression  Class
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.4. Regularization  Both
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.5. Algorithms  MLP
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.6. Complexity  Suppose
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.7. Mathematical
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.8. Tips
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.9. More
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.10. Bayesian Regression 
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.11. Logistic
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.12. Generalized Linear Regression
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.13. Stochastic Gradient Descent
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.14. Perceptron  The
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.15. Passive Aggressive Algorithms
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.16. Robustness
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.17. Polynomial
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.1. Ordinary Least Squares
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.2. Ridge
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.3. Lasso  The Lasso
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.4. Multi-task Lasso 
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.5. Elastic-Net  ElasticNet
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.6. Multi-task Elastic-Net 
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.7. Least Angle Regression
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.8. LARS Lasso  LassoLars
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.9. Orthogonal Matching Pursuit
+sklearn|Python|sklearn_1_2_linear_and_quadratic_discriminant_analysis|1.2. Linear and Quadratic Discriminant Analysis|modules/lda_qda.html|1.2.1. Dimensionality
+sklearn|Python|sklearn_1_2_linear_and_quadratic_discriminant_analysis|1.2. Linear and Quadratic Discriminant Analysis|modules/lda_qda.html|1.2.2. Mathematical
+sklearn|Python|sklearn_1_2_linear_and_quadratic_discriminant_analysis|1.2. Linear and Quadratic Discriminant Analysis|modules/lda_qda.html|1.2.3. Mathematical
+sklearn|Python|sklearn_1_2_linear_and_quadratic_discriminant_analysis|1.2. Linear and Quadratic Discriminant Analysis|modules/lda_qda.html|1.2.4. Shrinkage  Shrinkage
+sklearn|Python|sklearn_1_2_linear_and_quadratic_discriminant_analysis|1.2. Linear and Quadratic Discriminant Analysis|modules/lda_qda.html|1.2.5. Estimation
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.1. Classification  SVC
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.2. Regression  The
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.3. Density
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.4. Complexity  Support
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.5. Tips
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.6. Kernel
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.7. Mathematical
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.8. Implementation
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.1. Classification  The
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.2. Regression  The
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.3. Stochastic Gradient Descent
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.4. Complexity  The
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.5. Stopping
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.6. Tips
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.7. Mathematical
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.8. Implementation
+sklearn|Python|sklearn_1_6_nearest_neighbors|1.6. Nearest Neighbors|modules/neighbors.html|1.6.1. Unsupervised Nearest Neighbors
+sklearn|Python|sklearn_1_6_nearest_neighbors|1.6. Nearest Neighbors|modules/neighbors.html|1.6.2. Nearest Neighbors Classification
+sklearn|Python|sklearn_1_6_nearest_neighbors|1.6. Nearest Neighbors|modules/neighbors.html|1.6.3. Nearest Neighbors Regression
+sklearn|Python|sklearn_1_6_nearest_neighbors|1.6. Nearest Neighbors|modules/neighbors.html|1.6.4. Nearest Neighbor Algorithms
+sklearn|Python|sklearn_1_6_nearest_neighbors|1.6. Nearest Neighbors|modules/neighbors.html|1.6.5. Nearest Centroid Classifier
+sklearn|Python|sklearn_1_6_nearest_neighbors|1.6. Nearest Neighbors|modules/neighbors.html|1.6.6. Nearest Neighbors Transformer
+sklearn|Python|sklearn_1_6_nearest_neighbors|1.6. Nearest Neighbors|modules/neighbors.html|1.6.7. Neighborhood Components Analysis
+sklearn|Python|sklearn_1_7_gaussian_processes|1.7. Gaussian Processes|modules/gaussian_process.html|1.7.1. Gaussian Process Regression
+sklearn|Python|sklearn_1_7_gaussian_processes|1.7. Gaussian Processes|modules/gaussian_process.html|1.7.2. GPR
+sklearn|Python|sklearn_1_7_gaussian_processes|1.7. Gaussian Processes|modules/gaussian_process.html|1.7.3. Gaussian Process Classification
+sklearn|Python|sklearn_1_7_gaussian_processes|1.7. Gaussian Processes|modules/gaussian_process.html|1.7.4. GPC
+sklearn|Python|sklearn_1_7_gaussian_processes|1.7. Gaussian Processes|modules/gaussian_process.html|1.7.5. Kernels
+sklearn|Python|sklearn_1_9_naive_bayes|1.9. Naive Bayes|modules/naive_bayes.html|1.9.1. Gaussian Naive Bayes
+sklearn|Python|sklearn_1_9_naive_bayes|1.9. Naive Bayes|modules/naive_bayes.html|1.9.2. Multinomial Naive Bayes
+sklearn|Python|sklearn_1_9_naive_bayes|1.9. Naive Bayes|modules/naive_bayes.html|1.9.3. Complement Naive Bayes
+sklearn|Python|sklearn_1_9_naive_bayes|1.9. Naive Bayes|modules/naive_bayes.html|1.9.4. Bernoulli Naive Bayes
+sklearn|Python|sklearn_1_9_naive_bayes|1.9. Naive Bayes|modules/naive_bayes.html|1.9.5. Categorical Naive Bayes
+sklearn|Python|sklearn_1_9_naive_bayes|1.9. Naive Bayes|modules/naive_bayes.html|1.9.6. Out-of-core
+sklearn|Python|sklearn_2_1_gaussian_mixture_models|2.1. Gaussian mixture models|modules/mixture.html|2.1.1. Gaussian Mixture 
+sklearn|Python|sklearn_2_1_gaussian_mixture_models|2.1. Gaussian mixture models|modules/mixture.html|2.1.2. Variational Bayesian Gaussian
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.10. Tips
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.1. Introduction  High-dimensional
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.2. Isomap  One
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.3. Locally Linear Embedding
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.4. Modified Locally Linear
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.5. Hessian Eigenmapping 
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.6. Spectral Embedding 
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.7. Local Tangent Space
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.8. Multi-dimensional Scaling (MDS)
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.9. t-distributed Stochastic Neighbor
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.10. Clustering
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.1. Overview
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.2. K-means  The KMeans
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.3. Affinity Propagation 
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.4. Mean Shift  MeanShift
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.5. Spectral
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.6. Hierarchical
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.7. DBSCAN  The DBSCAN
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.8. OPTICS  The OPTICS
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.9. Birch  The Birch
+sklearn|Python|sklearn_2_4_biclustering|2.4. Biclustering|modules/biclustering.html|2.4.1. Spectral Co-Clustering 
+sklearn|Python|sklearn_2_4_biclustering|2.4. Biclustering|modules/biclustering.html|2.4.2. Spectral Biclustering 
+sklearn|Python|sklearn_2_4_biclustering|2.4. Biclustering|modules/biclustering.html|2.4.3. Biclustering
+sklearn|Python|sklearn_2_5_decomposing_signals_in_components_matrix_factorization_problems|2.5. Decomposing signals in components (matrix factorization problems)|modules/decomposition.html|2.5.1. Principal
+sklearn|Python|sklearn_2_5_decomposing_signals_in_components_matrix_factorization_problems|2.5. Decomposing signals in components (matrix factorization problems)|modules/decomposition.html|2.5.2. Truncated
+sklearn|Python|sklearn_2_5_decomposing_signals_in_components_matrix_factorization_problems|2.5. Decomposing signals in components (matrix factorization problems)|modules/decomposition.html|2.5.3. Dictionary Learning
+sklearn|Python|sklearn_2_5_decomposing_signals_in_components_matrix_factorization_problems|2.5. Decomposing signals in components (matrix factorization problems)|modules/decomposition.html|2.5.4. Factor Analysis  In
+sklearn|Python|sklearn_2_5_decomposing_signals_in_components_matrix_factorization_problems|2.5. Decomposing signals in components (matrix factorization problems)|modules/decomposition.html|2.5.5. Independent
+sklearn|Python|sklearn_2_5_decomposing_signals_in_components_matrix_factorization_problems|2.5. Decomposing signals in components (matrix factorization problems)|modules/decomposition.html|2.5.6. Non-negative
+sklearn|Python|sklearn_2_5_decomposing_signals_in_components_matrix_factorization_problems|2.5. Decomposing signals in components (matrix factorization problems)|modules/decomposition.html|2.5.7. Latent Dirichlet Allocation
+sklearn|Python|sklearn_2_6_covariance_estimation|2.6. Covariance estimation|modules/covariance.html|2.6.1. Empirical
+sklearn|Python|sklearn_2_6_covariance_estimation|2.6. Covariance estimation|modules/covariance.html|2.6.2. Shrunk Covariance
+sklearn|Python|sklearn_2_6_covariance_estimation|2.6. Covariance estimation|modules/covariance.html|2.6.3. Sparse
+sklearn|Python|sklearn_2_6_covariance_estimation|2.6. Covariance estimation|modules/covariance.html|2.6.4. Robust Covariance Estimation
+sklearn|Python|sklearn_2_7_novelty_and_outlier_detection|2.7. Novelty and Outlier Detection|modules/outlier_detection.html|2.7.1. Overview
+sklearn|Python|sklearn_2_7_novelty_and_outlier_detection|2.7. Novelty and Outlier Detection|modules/outlier_detection.html|2.7.2. Novelty Detection 
+sklearn|Python|sklearn_2_7_novelty_and_outlier_detection|2.7. Novelty and Outlier Detection|modules/outlier_detection.html|2.7.3. Outlier Detection 
+sklearn|Python|sklearn_2_7_novelty_and_outlier_detection|2.7. Novelty and Outlier Detection|modules/outlier_detection.html|2.7.4. Novelty
+sklearn|Python|sklearn_2_8_density_estimation|2.8. Density Estimation|modules/density.html|2.8.1. Density Estimation
+sklearn|Python|sklearn_2_8_density_estimation|2.8. Density Estimation|modules/density.html|2.8.2. Kernel Density Estimation
+sklearn|Python|sklearn_2_9_neural_network_models_unsupervised|2.9. Neural network models (unsupervised)|modules/neural_networks_unsupervised.html|2.9.1. Restricted Boltzmann
+sklearn|Python|sklearn_3_1_cross-validation_evaluating_estimator_performance|3.1. Cross-validation: evaluating estimator performance|modules/cross_validation.html|3.1.1. Computing
+sklearn|Python|sklearn_3_1_cross-validation_evaluating_estimator_performance|3.1. Cross-validation: evaluating estimator performance|modules/cross_validation.html|3.1.2. Cross
+sklearn|Python|sklearn_3_1_cross-validation_evaluating_estimator_performance|3.1. Cross-validation: evaluating estimator performance|modules/cross_validation.html|3.1.3. A
+sklearn|Python|sklearn_3_1_cross-validation_evaluating_estimator_performance|3.1. Cross-validation: evaluating estimator performance|modules/cross_validation.html|3.1.4. Cross
+sklearn|Python|sklearn_3_2_tuning_the_hyper-parameters_of_an_estimator|3.2. Tuning the hyper-parameters of an estimator|modules/grid_search.html|3.2.1. Exhaustive Grid Search
+sklearn|Python|sklearn_3_2_tuning_the_hyper-parameters_of_an_estimator|3.2. Tuning the hyper-parameters of an estimator|modules/grid_search.html|3.2.2. Randomized Parameter Optimization
+sklearn|Python|sklearn_3_2_tuning_the_hyper-parameters_of_an_estimator|3.2. Tuning the hyper-parameters of an estimator|modules/grid_search.html|3.2.3. Tips
+sklearn|Python|sklearn_3_2_tuning_the_hyper-parameters_of_an_estimator|3.2. Tuning the hyper-parameters of an estimator|modules/grid_search.html|3.2.4. Alternatives
+sklearn|Python|sklearn_3_3_metrics_and_scoring_quantifying_the_quality_of_predictions|3.3. Metrics and scoring: quantifying the quality of predictions|modules/model_evaluation.html|3.3.1. The
+sklearn|Python|sklearn_3_3_metrics_and_scoring_quantifying_the_quality_of_predictions|3.3. Metrics and scoring: quantifying the quality of predictions|modules/model_evaluation.html|3.3.2. Classification
+sklearn|Python|sklearn_3_3_metrics_and_scoring_quantifying_the_quality_of_predictions|3.3. Metrics and scoring: quantifying the quality of predictions|modules/model_evaluation.html|3.3.3. Multilabel
+sklearn|Python|sklearn_3_3_metrics_and_scoring_quantifying_the_quality_of_predictions|3.3. Metrics and scoring: quantifying the quality of predictions|modules/model_evaluation.html|3.3.4. Regression
+sklearn|Python|sklearn_3_3_metrics_and_scoring_quantifying_the_quality_of_predictions|3.3. Metrics and scoring: quantifying the quality of predictions|modules/model_evaluation.html|3.3.5. Clustering
+sklearn|Python|sklearn_3_3_metrics_and_scoring_quantifying_the_quality_of_predictions|3.3. Metrics and scoring: quantifying the quality of predictions|modules/model_evaluation.html|3.3.6. Dummy
+sklearn|Python|sklearn_3_4_model_persistence|3.4. Model persistence|modules/model_persistence.html|3.4.1. Persistence
+sklearn|Python|sklearn_3_4_model_persistence|3.4. Model persistence|modules/model_persistence.html|3.4.2. Security
+sklearn|Python|sklearn_3_5_validation_curves_plotting_scores_to_evaluate_models|3.5. Validation curves: plotting scores to evaluate models|modules/learning_curve.html|3.5.1. Validation
+sklearn|Python|sklearn_3_5_validation_curves_plotting_scores_to_evaluate_models|3.5. Validation curves: plotting scores to evaluate models|modules/learning_curve.html|3.5.2. Learning
+sklearn|Python|sklearn_4_1_partial_dependence_plots|4.1. Partial dependence plots|modules/partial_dependence.html|4.1.1. Mathematical Definition 
+sklearn|Python|sklearn_4_1_partial_dependence_plots|4.1. Partial dependence plots|modules/partial_dependence.html|4.1.2. Computation
+sklearn|Python|sklearn_4_2_permutation_feature_importance|4.2. Permutation feature importance|modules/permutation_importance.html|4.2.1. Outline
+sklearn|Python|sklearn_4_2_permutation_feature_importance|4.2. Permutation feature importance|modules/permutation_importance.html|4.2.2. Relation
+sklearn|Python|sklearn_4_2_permutation_feature_importance|4.2. Permutation feature importance|modules/permutation_importance.html|4.2.3. Misleading
+sklearn|Python|sklearn_5_1_available_plotting_utilities|5.1. Available Plotting Utilities|visualizations.html#available-plotting-utilities|5.1. Available Plotting Utilities
+sklearn|Python|sklearn_6_1_pipelines_and_composite_estimators|6.1. Pipelines and composite estimators|modules/compose.html|6.1.1. Pipeline
+sklearn|Python|sklearn_6_1_pipelines_and_composite_estimators|6.1. Pipelines and composite estimators|modules/compose.html|6.1.2. Transforming
+sklearn|Python|sklearn_6_1_pipelines_and_composite_estimators|6.1. Pipelines and composite estimators|modules/compose.html|6.1.3. FeatureUnion
+sklearn|Python|sklearn_6_1_pipelines_and_composite_estimators|6.1. Pipelines and composite estimators|modules/compose.html|6.1.4. ColumnTransformer
+sklearn|Python|sklearn_6_1_pipelines_and_composite_estimators|6.1. Pipelines and composite estimators|modules/compose.html|6.1.5. Visualizing Composite Estimators
+sklearn|Python|sklearn_6_2_feature_extraction|6.2. Feature extraction|modules/feature_extraction.html|6.2.1. Loading
+sklearn|Python|sklearn_6_2_feature_extraction|6.2. Feature extraction|modules/feature_extraction.html|6.2.2. Feature
+sklearn|Python|sklearn_6_2_feature_extraction|6.2. Feature extraction|modules/feature_extraction.html|6.2.3. Text
+sklearn|Python|sklearn_6_2_feature_extraction|6.2. Feature extraction|modules/feature_extraction.html|6.2.4. Image
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.1. Standardization
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.2. Non-linear
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.3. Normalization  Normalization
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.4. Encoding
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.5. Discretization  Discretization
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.6. Imputation
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.7. Generating
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.8. Custom
+sklearn|Python|sklearn_6_4_imputation_of_missing_values|6.4. Imputation of missing values|modules/impute.html|6.4.1. Univariate
+sklearn|Python|sklearn_6_4_imputation_of_missing_values|6.4. Imputation of missing values|modules/impute.html|6.4.2. Univariate
+sklearn|Python|sklearn_6_4_imputation_of_missing_values|6.4. Imputation of missing values|modules/impute.html|6.4.3. Multivariate
+sklearn|Python|sklearn_6_4_imputation_of_missing_values|6.4. Imputation of missing values|modules/impute.html|6.4.4. References
+sklearn|Python|sklearn_6_4_imputation_of_missing_values|6.4. Imputation of missing values|modules/impute.html|6.4.5. Nearest
+sklearn|Python|sklearn_6_4_imputation_of_missing_values|6.4. Imputation of missing values|modules/impute.html|6.4.6. Marking
+sklearn|Python|sklearn_6_5_unsupervised_dimensionality_reduction|6.5. Unsupervised dimensionality reduction|modules/unsupervised_reduction.html|6.5.1. PCA
+sklearn|Python|sklearn_6_5_unsupervised_dimensionality_reduction|6.5. Unsupervised dimensionality reduction|modules/unsupervised_reduction.html|6.5.2. Random
+sklearn|Python|sklearn_6_5_unsupervised_dimensionality_reduction|6.5. Unsupervised dimensionality reduction|modules/unsupervised_reduction.html|6.5.3. Feature
+sklearn|Python|sklearn_6_6_random_projection|6.6. Random Projection|modules/random_projection.html|6.6.1. The Johnson-Lindenstrauss lemma
+sklearn|Python|sklearn_6_6_random_projection|6.6. Random Projection|modules/random_projection.html|6.6.2. Gaussian
+sklearn|Python|sklearn_6_6_random_projection|6.6. Random Projection|modules/random_projection.html|6.6.3. Sparse
+sklearn|Python|sklearn_6_7_kernel_approximation|6.7. Kernel Approximation|modules/kernel_approximation.html|6.7.1. Nystroem Method
+sklearn|Python|sklearn_6_7_kernel_approximation|6.7. Kernel Approximation|modules/kernel_approximation.html|6.7.2. Radial Basis Function
+sklearn|Python|sklearn_6_7_kernel_approximation|6.7. Kernel Approximation|modules/kernel_approximation.html|6.7.3. Additive Chi Squared
+sklearn|Python|sklearn_6_7_kernel_approximation|6.7. Kernel Approximation|modules/kernel_approximation.html|6.7.4. Skewed Chi Squared
+sklearn|Python|sklearn_6_7_kernel_approximation|6.7. Kernel Approximation|modules/kernel_approximation.html|6.7.5. Mathematical Details 
+sklearn|Python|sklearn_6_8_pairwise_metrics_affinities_and_kernels|6.8. Pairwise metrics, Affinities and Kernels|modules/metrics.html|6.8.1. Cosine
+sklearn|Python|sklearn_6_8_pairwise_metrics_affinities_and_kernels|6.8. Pairwise metrics, Affinities and Kernels|modules/metrics.html|6.8.2. Linear
+sklearn|Python|sklearn_6_8_pairwise_metrics_affinities_and_kernels|6.8. Pairwise metrics, Affinities and Kernels|modules/metrics.html|6.8.3. Polynomial
+sklearn|Python|sklearn_6_8_pairwise_metrics_affinities_and_kernels|6.8. Pairwise metrics, Affinities and Kernels|modules/metrics.html|6.8.4. Sigmoid
+sklearn|Python|sklearn_6_8_pairwise_metrics_affinities_and_kernels|6.8. Pairwise metrics, Affinities and Kernels|modules/metrics.html|6.8.5. RBF
+sklearn|Python|sklearn_6_8_pairwise_metrics_affinities_and_kernels|6.8. Pairwise metrics, Affinities and Kernels|modules/metrics.html|6.8.6. Laplacian
+sklearn|Python|sklearn_6_8_pairwise_metrics_affinities_and_kernels|6.8. Pairwise metrics, Affinities and Kernels|modules/metrics.html|6.8.7. Chi-squared
+sklearn|Python|sklearn_6_9_transforming_the_prediction_target_y|6.9. Transforming the prediction target (y)|modules/preprocessing_targets.html|6.9.1. Label
+sklearn|Python|sklearn_6_9_transforming_the_prediction_target_y|6.9. Transforming the prediction target (y)|modules/preprocessing_targets.html|6.9.2. Label
+sklearn|Python|sklearn_7_1_general_dataset_api|7.1. General dataset API|datasets/index.html#general-dataset-api|7.1. General
+sklearn|Python|sklearn_7_1_general_dataset_api|7.1. General dataset API|datasets/index.html#general-dataset-api|7.2. Toy
+sklearn|Python|sklearn_7_1_general_dataset_api|7.1. General dataset API|datasets/index.html#general-dataset-api|7.3. Real
+sklearn|Python|sklearn_7_1_general_dataset_api|7.1. General dataset API|datasets/index.html#general-dataset-api|7.4. Generated
+sklearn|Python|sklearn_7_1_general_dataset_api|7.1. General dataset API|datasets/index.html#general-dataset-api|7.5. Loading
+sklearn|Python|sklearn_7_2_toy_datasets|7.2. Toy datasets|datasets/index.html#toy-datasets|7.1. General
+sklearn|Python|sklearn_7_2_toy_datasets|7.2. Toy datasets|datasets/index.html#toy-datasets|7.2. Toy
+sklearn|Python|sklearn_7_2_toy_datasets|7.2. Toy datasets|datasets/index.html#toy-datasets|7.3. Real
+sklearn|Python|sklearn_7_2_toy_datasets|7.2. Toy datasets|datasets/index.html#toy-datasets|7.4. Generated
+sklearn|Python|sklearn_7_2_toy_datasets|7.2. Toy datasets|datasets/index.html#toy-datasets|7.5. Loading
+sklearn|Python|sklearn_7_3_real_world_datasets|7.3. Real world datasets|datasets/index.html#real-world-datasets|7.1. General
+sklearn|Python|sklearn_7_3_real_world_datasets|7.3. Real world datasets|datasets/index.html#real-world-datasets|7.2. Toy
+sklearn|Python|sklearn_7_3_real_world_datasets|7.3. Real world datasets|datasets/index.html#real-world-datasets|7.3. Real
+sklearn|Python|sklearn_7_3_real_world_datasets|7.3. Real world datasets|datasets/index.html#real-world-datasets|7.4. Generated
+sklearn|Python|sklearn_7_3_real_world_datasets|7.3. Real world datasets|datasets/index.html#real-world-datasets|7.5. Loading
+sklearn|Python|sklearn_7_4_generated_datasets|7.4. Generated datasets|datasets/index.html#generated-datasets|7.1. General
+sklearn|Python|sklearn_7_4_generated_datasets|7.4. Generated datasets|datasets/index.html#generated-datasets|7.2. Toy
+sklearn|Python|sklearn_7_4_generated_datasets|7.4. Generated datasets|datasets/index.html#generated-datasets|7.3. Real
+sklearn|Python|sklearn_7_4_generated_datasets|7.4. Generated datasets|datasets/index.html#generated-datasets|7.4. Generated
+sklearn|Python|sklearn_7_4_generated_datasets|7.4. Generated datasets|datasets/index.html#generated-datasets|7.5. Loading
+sklearn|Python|sklearn_7_5_loading_other_datasets|7.5. Loading other datasets|datasets/index.html#loading-other-datasets|7.1. General
+sklearn|Python|sklearn_7_5_loading_other_datasets|7.5. Loading other datasets|datasets/index.html#loading-other-datasets|7.2. Toy
+sklearn|Python|sklearn_7_5_loading_other_datasets|7.5. Loading other datasets|datasets/index.html#loading-other-datasets|7.3. Real
+sklearn|Python|sklearn_7_5_loading_other_datasets|7.5. Loading other datasets|datasets/index.html#loading-other-datasets|7.4. Generated
+sklearn|Python|sklearn_7_5_loading_other_datasets|7.5. Loading other datasets|datasets/index.html#loading-other-datasets|7.5. Loading
+sklearn|Python|sklearn_8_1_strategies_to_scale_computationally_bigger_data|8.1. Strategies to scale computationally: bigger data|modules/computing.html#strategies-to-scale-computationally-bigger-data|8.1. Strategies
+sklearn|Python|sklearn_8_1_strategies_to_scale_computationally_bigger_data|8.1. Strategies to scale computationally: bigger data|modules/computing.html#strategies-to-scale-computationally-bigger-data|8.2. Computational Performance 
+sklearn|Python|sklearn_8_1_strategies_to_scale_computationally_bigger_data|8.1. Strategies to scale computationally: bigger data|modules/computing.html#strategies-to-scale-computationally-bigger-data|8.3. Parallelism
+sklearn|Python|sklearn_8_2_computational_performance|8.2. Computational Performance|modules/computing.html#computational-performance|8.1. Strategies
+sklearn|Python|sklearn_8_2_computational_performance|8.2. Computational Performance|modules/computing.html#computational-performance|8.2. Computational Performance 
+sklearn|Python|sklearn_8_2_computational_performance|8.2. Computational Performance|modules/computing.html#computational-performance|8.3. Parallelism
+sklearn|Python|sklearn_8_3_parallelism_resource_management_and_configuration|8.3. Parallelism, resource management, and configuration|modules/computing.html#parallelism-resource-management-and-configuration|8.1. Strategies
+sklearn|Python|sklearn_8_3_parallelism_resource_management_and_configuration|8.3. Parallelism, resource management, and configuration|modules/computing.html#parallelism-resource-management-and-configuration|8.2. Computational Performance 
+sklearn|Python|sklearn_8_3_parallelism_resource_management_and_configuration|8.3. Parallelism, resource management, and configuration|modules/computing.html#parallelism-resource-management-and-configuration|8.3. Parallelism
+scipy|Python|scipy_basic_functions|Basic functions|basic.html|Interaction with NumPy 
+scipy|Python|scipy_compressed_sparse_graph_routines_scipy_sparse_csgraph|Compressed Sparse Graph Routines (scipy.sparse.csgraph)|csgraph.html|Example: Word Ladders 
+scipy|Python|scipy_file_io_scipy_io|File IO (scipy.io)|io.html|Arff files ( scipy.io.arff
+scipy|Python|scipy_file_io_scipy_io|File IO (scipy.io)|io.html|IDL files  readsav
+scipy|Python|scipy_file_io_scipy_io|File IO (scipy.io)|io.html|MATLAB files  loadmat
+scipy|Python|scipy_file_io_scipy_io|File IO (scipy.io)|io.html|Matrix Market files 
+scipy|Python|scipy_file_io_scipy_io|File IO (scipy.io)|io.html|Netcdf  netcdf_file (filename[, mode, mmap, version, …])
+scipy|Python|scipy_file_io_scipy_io|File IO (scipy.io)|io.html|Wav sound files (
+scipy|Python|scipy_fourier_transforms_scipy_fft|Fourier Transforms (scipy.fft)|fft.html|Discrete Cosine Transforms 
+scipy|Python|scipy_fourier_transforms_scipy_fft|Fourier Transforms (scipy.fft)|fft.html|Discrete Sine Transforms 
+scipy|Python|scipy_fourier_transforms_scipy_fft|Fourier Transforms (scipy.fft)|fft.html|Fast Fourier transforms 
+scipy|Python|scipy_fourier_transforms_scipy_fft|Fourier Transforms (scipy.fft)|fft.html|References  CT65 Cooley,
+scipy|Python|scipy_integration_scipy_integrate|Integration (scipy.integrate)|integrate.html|Faster integration using low-level
+scipy|Python|scipy_integration_scipy_integrate|Integration (scipy.integrate)|integrate.html|Gaussian quadrature  A
+scipy|Python|scipy_integration_scipy_integrate|Integration (scipy.integrate)|integrate.html|General integration ( quad
+scipy|Python|scipy_integration_scipy_integrate|Integration (scipy.integrate)|integrate.html|General multiple integration (
+scipy|Python|scipy_integration_scipy_integrate|Integration (scipy.integrate)|integrate.html|Integrating using Samples 
+scipy|Python|scipy_integration_scipy_integrate|Integration (scipy.integrate)|integrate.html|Ordinary differential equations (
+scipy|Python|scipy_integration_scipy_integrate|Integration (scipy.integrate)|integrate.html|Romberg Integration  Romberg’s
+scipy|Python|scipy_interpolation_scipy_interpolate|Interpolation (scipy.interpolate)|interpolate.html|1-D interpolation ( interp1d
+scipy|Python|scipy_interpolation_scipy_interpolate|Interpolation (scipy.interpolate)|interpolate.html|Multivariate data interpolation (
+scipy|Python|scipy_interpolation_scipy_interpolate|Interpolation (scipy.interpolate)|interpolate.html|Spline interpolation  Spline
+scipy|Python|scipy_introduction|Introduction|general.html|Finding Documentation  SciPy
+scipy|Python|scipy_introduction|Introduction|general.html|SciPy Organization  SciPy
+scipy|Python|scipy_linear_algebra_scipy_linalg|Linear Algebra (scipy.linalg)|linalg.html|Basic routines  Finding
+scipy|Python|scipy_linear_algebra_scipy_linalg|Linear Algebra (scipy.linalg)|linalg.html|Decompositions  In many
+scipy|Python|scipy_linear_algebra_scipy_linalg|Linear Algebra (scipy.linalg)|linalg.html|Matrix functions  Consider
+scipy|Python|scipy_linear_algebra_scipy_linalg|Linear Algebra (scipy.linalg)|linalg.html|numpy.matrix vs 2-D numpy.ndarray
+scipy|Python|scipy_linear_algebra_scipy_linalg|Linear Algebra (scipy.linalg)|linalg.html|scipy.linalg vs numpy.linalg 
+scipy|Python|scipy_linear_algebra_scipy_linalg|Linear Algebra (scipy.linalg)|linalg.html|Special matrices  SciPy
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Distance transforms  Distance
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Extending scipy.ndimage in C
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Filter functions  The
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Interpolation functions  This
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Introduction  Image processing
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Morphology  Binary morphology
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Object measurements  Given
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Properties shared by all
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|References  1 M.
+scipy|Python|scipy_multidimensional_image_processing_scipy_ndimage|Multidimensional image processing (scipy.ndimage)|ndimage.html|Segmentation and labeling 
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Constrained minimization of multivariate
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Custom minimizers  Sometimes,
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Global optimization  Global
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Least-squares minimization ( least_squares
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Linear programming ( linprog
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Root finding  Scalar
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Unconstrained minimization of multivariate
+scipy|Python|scipy_optimization_scipy_optimize|Optimization (scipy.optimize)|optimize.html|Univariate function minimizers (
+scipy|Python|scipy_signal_processing_scipy_signal|Signal Processing (scipy.signal)|signal.html|B-splines  A B-spline
+scipy|Python|scipy_signal_processing_scipy_signal|Signal Processing (scipy.signal)|signal.html|Detrend  SciPy provides
+scipy|Python|scipy_signal_processing_scipy_signal|Signal Processing (scipy.signal)|signal.html|Filtering  Filtering is
+scipy|Python|scipy_signal_processing_scipy_signal|Signal Processing (scipy.signal)|signal.html|Spectral Analysis  Periodogram
+scipy|Python|scipy_sparse_eigenvalue_problems_with_arpack|Sparse eigenvalue problems with ARPACK|arpack.html|Basic functionality  ARPACK
+scipy|Python|scipy_sparse_eigenvalue_problems_with_arpack|Sparse eigenvalue problems with ARPACK|arpack.html|Examples  Imagine you’d
+scipy|Python|scipy_sparse_eigenvalue_problems_with_arpack|Sparse eigenvalue problems with ARPACK|arpack.html|Introduction  ARPACK 1
+scipy|Python|scipy_sparse_eigenvalue_problems_with_arpack|Sparse eigenvalue problems with ARPACK|arpack.html|References  1 http://www.caam.rice.edu/software/ARPACK/
+scipy|Python|scipy_sparse_eigenvalue_problems_with_arpack|Sparse eigenvalue problems with ARPACK|arpack.html|Shift-invert mode  Shift-invert
+scipy|Python|scipy_sparse_eigenvalue_problems_with_arpack|Sparse eigenvalue problems with ARPACK|arpack.html|Use of LinearOperator 
+scipy|Python|scipy_spatial_data_structures_and_algorithms_scipy_spatial|Spatial data structures and algorithms (scipy.spatial)|spatial.html|Convex hulls  A
+scipy|Python|scipy_spatial_data_structures_and_algorithms_scipy_spatial|Spatial data structures and algorithms (scipy.spatial)|spatial.html|Delaunay triangulations  The
+scipy|Python|scipy_spatial_data_structures_and_algorithms_scipy_spatial|Spatial data structures and algorithms (scipy.spatial)|spatial.html|Voronoi diagrams  A
+scipy|Python|scipy_special_functions_scipy_special|Special functions (scipy.special)|special.html|Bessel functions of real
+scipy|Python|scipy_special_functions_scipy_special|Special functions (scipy.special)|special.html|Cython Bindings for Special
+scipy|Python|scipy_special_functions_scipy_special|Special functions (scipy.special)|special.html|Functions not in scipy.special
+scipy|Python|scipy_statistics_scipy_stats|Statistics (scipy.stats)|stats.html|Analysing one sample 
+scipy|Python|scipy_statistics_scipy_stats|Statistics (scipy.stats)|stats.html|Building specific distributions 
+scipy|Python|scipy_statistics_scipy_stats|Statistics (scipy.stats)|stats.html|Comparing two samples 
+scipy|Python|scipy_statistics_scipy_stats|Statistics (scipy.stats)|stats.html|Introduction  In this
+scipy|Python|scipy_statistics_scipy_stats|Statistics (scipy.stats)|stats.html|Kernel density estimation 
+scipy|Python|scipy_statistics_scipy_stats|Statistics (scipy.stats)|stats.html|Random variables  There

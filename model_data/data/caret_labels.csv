@@ -1,0 +1,141 @@
+caret|R|caret_11_subsampling_for_class_imbalances|11 Subsampling For Class Imbalances|subsampling-for-class-imbalances.html|11.1 Subsampling Techniques To
+caret|R|caret_11_subsampling_for_class_imbalances|11 Subsampling For Class Imbalances|subsampling-for-class-imbalances.html|11.2 Subsampling During Resampling
+caret|R|caret_11_subsampling_for_class_imbalances|11 Subsampling For Class Imbalances|subsampling-for-class-imbalances.html|11.3 Complications The
+caret|R|caret_11_subsampling_for_class_imbalances|11 Subsampling For Class Imbalances|subsampling-for-class-imbalances.html|11.4 Using Custom Subsampling
+caret|R|caret_12_using_recipes_with_train|12 Using Recipes with train|using-recipes-with-train.html|12.1 Why Should
+caret|R|caret_12_using_recipes_with_train|12 Using Recipes with train|using-recipes-with-train.html|12.2 An Example The QSARdata
+caret|R|caret_12_using_recipes_with_train|12 Using Recipes with train|using-recipes-with-train.html|12.3 Case Weights For
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.1 Introduction The
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.2 Illustrative Example
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.3 Model Components You
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.4 The
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.5 Illustrative Example
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.6 Illustrative Example
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.7 Illustrative Example
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.8 Illustrative Example
+caret|R|caret_13_using_your_own_model_in_train|13 Using Your Own Model in train|using-your-own-model-in-train.html|13.9 Illustrative Example
+caret|R|caret_15_variable_importance|15 Variable Importance|variable-importance.html|15.1 Model Specific Metrics
+caret|R|caret_15_variable_importance|15 Variable Importance|variable-importance.html|15.2 Model Independent Metrics
+caret|R|caret_15_variable_importance|15 Variable Importance|variable-importance.html|15.3 An Example On
+caret|R|caret_16_miscellaneous_model_functions|16 Miscellaneous Model Functions|miscellaneous-model-functions.html|16.1 Yet Another
+caret|R|caret_16_miscellaneous_model_functions|16 Miscellaneous Model Functions|miscellaneous-model-functions.html|16.2 Partial Least Squares
+caret|R|caret_16_miscellaneous_model_functions|16 Miscellaneous Model Functions|miscellaneous-model-functions.html|16.3 Bagged MARS
+caret|R|caret_16_miscellaneous_model_functions|16 Miscellaneous Model Functions|miscellaneous-model-functions.html|16.4 Bagging The
+caret|R|caret_16_miscellaneous_model_functions|16 Miscellaneous Model Functions|miscellaneous-model-functions.html|16.5 Model Averaged Neural
+caret|R|caret_16_miscellaneous_model_functions|16 Miscellaneous Model Functions|miscellaneous-model-functions.html|16.6 Neural Networks
+caret|R|caret_16_miscellaneous_model_functions|16 Miscellaneous Model Functions|miscellaneous-model-functions.html|16.7 Independent Component Regression
+caret|R|caret_17_measuring_performance|17 Measuring Performance|measuring-performance.html|17.1 Measures
+caret|R|caret_17_measuring_performance|17 Measuring Performance|measuring-performance.html|17.2 Measures
+caret|R|caret_17_measuring_performance|17 Measuring Performance|measuring-performance.html|17.3 Measures
+caret|R|caret_17_measuring_performance|17 Measuring Performance|measuring-performance.html|17.4 Lift Curves The
+caret|R|caret_17_measuring_performance|17 Measuring Performance|measuring-performance.html|17.5 Calibration Curves Calibration
+caret|R|caret_18_feature_selection_overview|18 Feature Selection Overview|feature-selection-overview.html|18.1 Models
+caret|R|caret_18_feature_selection_overview|18 Feature Selection Overview|feature-selection-overview.html|18.2 Feature Selection Methods
+caret|R|caret_18_feature_selection_overview|18 Feature Selection Overview|feature-selection-overview.html|18.3 External Validation It
+caret|R|caret_19_feature_selection_using_univariate_filters|19 Feature Selection using Univariate Filters|feature-selection-using-univariate-filters.html|19.1 Univariate Filters Another
+caret|R|caret_19_feature_selection_using_univariate_filters|19 Feature Selection using Univariate Filters|feature-selection-using-univariate-filters.html|19.2 Basic Syntax Similar
+caret|R|caret_19_feature_selection_using_univariate_filters|19 Feature Selection using Univariate Filters|feature-selection-using-univariate-filters.html|19.3 The Example Returning
+caret|R|caret_20_recursive_feature_elimination|20 Recursive Feature Elimination|recursive-feature-elimination.html|20.1 Backwards Selection First
+caret|R|caret_20_recursive_feature_elimination|20 Recursive Feature Elimination|recursive-feature-elimination.html|20.2 Resampling
+caret|R|caret_20_recursive_feature_elimination|20 Recursive Feature Elimination|recursive-feature-elimination.html|20.3 Recursive Feature Elimination
+caret|R|caret_20_recursive_feature_elimination|20 Recursive Feature Elimination|recursive-feature-elimination.html|20.4 An Example To
+caret|R|caret_20_recursive_feature_elimination|20 Recursive Feature Elimination|recursive-feature-elimination.html|20.5 Helper Functions To
+caret|R|caret_20_recursive_feature_elimination|20 Recursive Feature Elimination|recursive-feature-elimination.html|20.6 The Example For
+caret|R|caret_20_recursive_feature_elimination|20 Recursive Feature Elimination|recursive-feature-elimination.html|20.7 Using
+caret|R|caret_21_feature_selection_using_genetic_algorithms|21 Feature Selection using Genetic Algorithms|feature-selection-using-genetic-algorithms.html|21.1 Genetic Algorithms Genetic
+caret|R|caret_21_feature_selection_using_genetic_algorithms|21 Feature Selection using Genetic Algorithms|feature-selection-using-genetic-algorithms.html|21.2 Internal
+caret|R|caret_21_feature_selection_using_genetic_algorithms|21 Feature Selection using Genetic Algorithms|feature-selection-using-genetic-algorithms.html|21.3 Basic Syntax The
+caret|R|caret_21_feature_selection_using_genetic_algorithms|21 Feature Selection using Genetic Algorithms|feature-selection-using-genetic-algorithms.html|21.4 Genetic Algorithm Example
+caret|R|caret_21_feature_selection_using_genetic_algorithms|21 Feature Selection using Genetic Algorithms|feature-selection-using-genetic-algorithms.html|21.5 Customizing
+caret|R|caret_21_feature_selection_using_genetic_algorithms|21 Feature Selection using Genetic Algorithms|feature-selection-using-genetic-algorithms.html|21.6 The Example Revisited The
+caret|R|caret_21_feature_selection_using_genetic_algorithms|21 Feature Selection using Genetic Algorithms|feature-selection-using-genetic-algorithms.html|21.7 Using Recipes Like
+caret|R|caret_22_feature_selection_using_simulated_annealing|22 Feature Selection using Simulated Annealing|feature-selection-using-simulated-annealing.html|22.1 Simulated Annealing Simulated
+caret|R|caret_22_feature_selection_using_simulated_annealing|22 Feature Selection using Simulated Annealing|feature-selection-using-simulated-annealing.html|22.2 Internal
+caret|R|caret_22_feature_selection_using_simulated_annealing|22 Feature Selection using Simulated Annealing|feature-selection-using-simulated-annealing.html|22.3 Basic Syntax The
+caret|R|caret_22_feature_selection_using_simulated_annealing|22 Feature Selection using Simulated Annealing|feature-selection-using-simulated-annealing.html|22.4 Simulated Annealing Example
+caret|R|caret_22_feature_selection_using_simulated_annealing|22 Feature Selection using Simulated Annealing|feature-selection-using-simulated-annealing.html|22.5 Customizing
+caret|R|caret_22_feature_selection_using_simulated_annealing|22 Feature Selection using Simulated Annealing|feature-selection-using-simulated-annealing.html|22.6 Using Recipes Similar
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.10 Animal Scat Data Reid
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.1 Blood-Brain Barrier Data
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.2 COX-
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.3 DHFR Inhibition Sutherland
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.4 Tecator NIR Data These
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.5 Fatty Acid Composition
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.6 German Credit Data Data
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.7 Kelly Blue Book Resale
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.8 Cell Body Segmentation
+caret|R|caret_23_data_sets|23 Data Sets|data-sets.html|23.9 Sacramento House Price
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.10 Class Distance Calculations
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.1 Creating Dummy Variables
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.2 Zero-
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.3 Identifying Correlated Predictors
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.4 Linear Dependencies The
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.5 The
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.6 Centering
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.7 Imputation
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.8 Transforming Predictors In
+caret|R|caret_3_preprocessing|3 Pre-Processing|pre-processing.html|3.9 Putting It All
+caret|R|caret_4_data_splitting|4 Data Splitting|data-splitting.html|4.1 Simple Splitting Based
+caret|R|caret_4_data_splitting|4 Data Splitting|data-splitting.html|4.2 Splitting Based
+caret|R|caret_4_data_splitting|4 Data Splitting|data-splitting.html|4.3 Data Splitting
+caret|R|caret_4_data_splitting|4 Data Splitting|data-splitting.html|4.4 Simple Splitting
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.1 Model Training
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.2 An Example The Sonar
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.3 Basic Parameter Tuning By
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.4 Notes
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.5 Customizing
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.6 Choosing
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.7 Extracting Predictions
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.8 Exploring
+caret|R|caret_5_model_training_and_tuning|5 Model Training and Tuning|model-training-and-tuning.html|5.9 Fitting Models Without
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.10 Ensemble Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.11 Feature Extraction
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.12 Feature Selection Wrapper
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.13 Gaussian Process
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.14 Generalized Additive Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.15 Generalized Linear Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.16 Handle Missing Predictor
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.17 Implicit Feature Selection
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.18 Kernel Method
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.19 L
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.1 Accepts Case Weights
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.20 L
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.21 Linear Classifier
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.22 Linear Regression
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.23 Logic Regression
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.24 Logistic Regression
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.25 Mixture Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.26 Model Tree
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.27 Multivariate Adaptive Regression
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.28 Neural Network
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.29 Oblique Tree
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.2 Bagging
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.30 Ordinal Outcomes
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.31 Partial Least Squares
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.32 Patient Rule Induction
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.33 Polynomial Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.34 Prototype Models
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.35 Quantile Regression
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.36 Radial Basis Function
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.37 Random Forest
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.38 Regularization
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.39 Relevance Vector Machines
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.3 Bayesian Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.40 Ridge Regression
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.41 Robust Methods
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.42 Robust Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.43 ROC Curves
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.44 Rule-Based Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.45 Self-Organising Maps
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.46 String Kernel
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.47 Support Vector Machines
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.48 Supports Class Probabilities
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.49 Text Mining
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.4 Binary Predictors Only
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.50 Tree-Based Model
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.51 Two Class Only
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.5 Boosting
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.6 Categorical Predictors Only
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.7 Cost Sensitive Learning
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.8 Discriminant Analysis
+caret|R|caret_7_train_models_by_tag|7 train Models By Tag|train-models-by-tag.html|7.0.9 Distance Weighted Discrimination

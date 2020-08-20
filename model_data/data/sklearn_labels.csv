@@ -1,0 +1,242 @@
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.1. Classification  DecisionTreeClassifier
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.2. Regression  Decision
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.3. Multi-output
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.4. Complexity  In
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.5. Tips
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.6. Tree
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.7. Mathematical
+sklearn|Python|sklearn_1_10_decision_trees|1.10. Decision Trees|modules/tree.html|1.10.8. Minimal Cost-Complexity Pruning
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.1. Bagging
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.2. Forests
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.3. AdaBoost  The
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.4. Gradient Tree Boosting
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.5. Histogram-Based Gradient Boosting
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.6. Voting Classifier  The
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.7. Voting Regressor  The
+sklearn|Python|sklearn_1_11_ensemble_methods|1.11. Ensemble methods|modules/ensemble.html|1.11.8. Stacked
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.1. Multilabel
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.2. One-Vs-The-Rest  This
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.3. One-Vs-One  OneVsOneClassifier
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.4. Error-Correcting Output-Codes 
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.5. Multioutput
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.6. Multioutput
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.7. Classifier Chain 
+sklearn|Python|sklearn_1_12_multiclass_and_multilabel_algorithms|1.12. Multiclass and multilabel algorithms|modules/multiclass.html|1.12.8. Regressor Chain 
+sklearn|Python|sklearn_1_13_feature_selection|1.13. Feature selection|modules/feature_selection.html|1.13.1. Removing
+sklearn|Python|sklearn_1_13_feature_selection|1.13. Feature selection|modules/feature_selection.html|1.13.2. Univariate
+sklearn|Python|sklearn_1_13_feature_selection|1.13. Feature selection|modules/feature_selection.html|1.13.3. Recursive
+sklearn|Python|sklearn_1_13_feature_selection|1.13. Feature selection|modules/feature_selection.html|1.13.4. Feature
+sklearn|Python|sklearn_1_13_feature_selection|1.13. Feature selection|modules/feature_selection.html|1.13.5. Feature
+sklearn|Python|sklearn_1_14_semi-supervised|1.14. Semi-Supervised|modules/label_propagation.html|1.14.1. Label Propagation 
+sklearn|Python|sklearn_1_16_probability_calibration|1.16. Probability calibration|modules/calibration.html|1.16.1. Calibration
+sklearn|Python|sklearn_1_16_probability_calibration|1.16. Probability calibration|modules/calibration.html|1.16.2. Calibrating
+sklearn|Python|sklearn_1_16_probability_calibration|1.16. Probability calibration|modules/calibration.html|1.16.3. Usage  The
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.1. Multi-layer Perceptron 
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.2. Classification  Class
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.3. Regression  Class
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.4. Regularization  Both
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.5. Algorithms  MLP
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.6. Complexity  Suppose
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.7. Mathematical
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.8. Tips
+sklearn|Python|sklearn_1_17_neural_network_models_supervised|1.17. Neural network models (supervised)|modules/neural_networks_supervised.html|1.17.9. More
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.10. Bayesian Regression 
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.11. Logistic
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.12. Generalized Linear Regression
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.13. Stochastic Gradient Descent
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.14. Perceptron  The
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.15. Passive Aggressive Algorithms
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.16. Robustness
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.17. Polynomial
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.1. Ordinary Least Squares
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.2. Ridge
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.3. Lasso  The Lasso
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.4. Multi-task Lasso 
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.5. Elastic-Net  ElasticNet
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.6. Multi-task Elastic-Net 
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.7. Least Angle Regression
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.8. LARS Lasso  LassoLars
+sklearn|Python|sklearn_1_1_linear_models|1.1. Linear Models|modules/linear_model.html|1.1.9. Orthogonal Matching Pursuit
+sklearn|Python|sklearn_1_2_linear_and_quadratic_discriminant_analysis|1.2. Linear and Quadratic Discriminant Analysis|modules/lda_qda.html|1.2.1. Dimensionality
+sklearn|Python|sklearn_1_2_linear_and_quadratic_discriminant_analysis|1.2. Linear and Quadratic Discriminant Analysis|modules/lda_qda.html|1.2.2. Mathematical
+sklearn|Python|sklearn_1_2_linear_and_quadratic_discriminant_analysis|1.2. Linear and Quadratic Discriminant Analysis|modules/lda_qda.html|1.2.3. Mathematical
+sklearn|Python|sklearn_1_2_linear_and_quadratic_discriminant_analysis|1.2. Linear and Quadratic Discriminant Analysis|modules/lda_qda.html|1.2.4. Shrinkage  Shrinkage
+sklearn|Python|sklearn_1_2_linear_and_quadratic_discriminant_analysis|1.2. Linear and Quadratic Discriminant Analysis|modules/lda_qda.html|1.2.5. Estimation
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.1. Classification  SVC
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.2. Regression  The
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.3. Density
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.4. Complexity  Support
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.5. Tips
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.6. Kernel
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.7. Mathematical
+sklearn|Python|sklearn_1_4_support_vector_machines|1.4. Support Vector Machines|modules/svm.html|1.4.8. Implementation
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.1. Classification  The
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.2. Regression  The
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.3. Stochastic Gradient Descent
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.4. Complexity  The
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.5. Stopping
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.6. Tips
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.7. Mathematical
+sklearn|Python|sklearn_1_5_stochastic_gradient_descent|1.5. Stochastic Gradient Descent|modules/sgd.html|1.5.8. Implementation
+sklearn|Python|sklearn_1_6_nearest_neighbors|1.6. Nearest Neighbors|modules/neighbors.html|1.6.1. Unsupervised Nearest Neighbors
+sklearn|Python|sklearn_1_6_nearest_neighbors|1.6. Nearest Neighbors|modules/neighbors.html|1.6.2. Nearest Neighbors Classification
+sklearn|Python|sklearn_1_6_nearest_neighbors|1.6. Nearest Neighbors|modules/neighbors.html|1.6.3. Nearest Neighbors Regression
+sklearn|Python|sklearn_1_6_nearest_neighbors|1.6. Nearest Neighbors|modules/neighbors.html|1.6.4. Nearest Neighbor Algorithms
+sklearn|Python|sklearn_1_6_nearest_neighbors|1.6. Nearest Neighbors|modules/neighbors.html|1.6.5. Nearest Centroid Classifier
+sklearn|Python|sklearn_1_6_nearest_neighbors|1.6. Nearest Neighbors|modules/neighbors.html|1.6.6. Nearest Neighbors Transformer
+sklearn|Python|sklearn_1_6_nearest_neighbors|1.6. Nearest Neighbors|modules/neighbors.html|1.6.7. Neighborhood Components Analysis
+sklearn|Python|sklearn_1_7_gaussian_processes|1.7. Gaussian Processes|modules/gaussian_process.html|1.7.1. Gaussian Process Regression
+sklearn|Python|sklearn_1_7_gaussian_processes|1.7. Gaussian Processes|modules/gaussian_process.html|1.7.2. GPR
+sklearn|Python|sklearn_1_7_gaussian_processes|1.7. Gaussian Processes|modules/gaussian_process.html|1.7.3. Gaussian Process Classification
+sklearn|Python|sklearn_1_7_gaussian_processes|1.7. Gaussian Processes|modules/gaussian_process.html|1.7.4. GPC
+sklearn|Python|sklearn_1_7_gaussian_processes|1.7. Gaussian Processes|modules/gaussian_process.html|1.7.5. Kernels
+sklearn|Python|sklearn_1_9_naive_bayes|1.9. Naive Bayes|modules/naive_bayes.html|1.9.1. Gaussian Naive Bayes
+sklearn|Python|sklearn_1_9_naive_bayes|1.9. Naive Bayes|modules/naive_bayes.html|1.9.2. Multinomial Naive Bayes
+sklearn|Python|sklearn_1_9_naive_bayes|1.9. Naive Bayes|modules/naive_bayes.html|1.9.3. Complement Naive Bayes
+sklearn|Python|sklearn_1_9_naive_bayes|1.9. Naive Bayes|modules/naive_bayes.html|1.9.4. Bernoulli Naive Bayes
+sklearn|Python|sklearn_1_9_naive_bayes|1.9. Naive Bayes|modules/naive_bayes.html|1.9.5. Categorical Naive Bayes
+sklearn|Python|sklearn_1_9_naive_bayes|1.9. Naive Bayes|modules/naive_bayes.html|1.9.6. Out-of-core
+sklearn|Python|sklearn_2_1_gaussian_mixture_models|2.1. Gaussian mixture models|modules/mixture.html|2.1.1. Gaussian Mixture 
+sklearn|Python|sklearn_2_1_gaussian_mixture_models|2.1. Gaussian mixture models|modules/mixture.html|2.1.2. Variational Bayesian Gaussian
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.10. Tips
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.1. Introduction  High-dimensional
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.2. Isomap  One
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.3. Locally Linear Embedding
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.4. Modified Locally Linear
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.5. Hessian Eigenmapping 
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.6. Spectral Embedding 
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.7. Local Tangent Space
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.8. Multi-dimensional Scaling (MDS)
+sklearn|Python|sklearn_2_2_manifold_learning|2.2. Manifold learning|modules/manifold.html|2.2.9. t-distributed Stochastic Neighbor
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.10. Clustering
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.1. Overview
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.2. K-means  The KMeans
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.3. Affinity Propagation 
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.4. Mean Shift  MeanShift
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.5. Spectral
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.6. Hierarchical
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.7. DBSCAN  The DBSCAN
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.8. OPTICS  The OPTICS
+sklearn|Python|sklearn_2_3_clustering|2.3. Clustering|modules/clustering.html|2.3.9. Birch  The Birch
+sklearn|Python|sklearn_2_4_biclustering|2.4. Biclustering|modules/biclustering.html|2.4.1. Spectral Co-Clustering 
+sklearn|Python|sklearn_2_4_biclustering|2.4. Biclustering|modules/biclustering.html|2.4.2. Spectral Biclustering 
+sklearn|Python|sklearn_2_4_biclustering|2.4. Biclustering|modules/biclustering.html|2.4.3. Biclustering
+sklearn|Python|sklearn_2_5_decomposing_signals_in_components_matrix_factorization_problems|2.5. Decomposing signals in components (matrix factorization problems)|modules/decomposition.html|2.5.1. Principal
+sklearn|Python|sklearn_2_5_decomposing_signals_in_components_matrix_factorization_problems|2.5. Decomposing signals in components (matrix factorization problems)|modules/decomposition.html|2.5.2. Truncated
+sklearn|Python|sklearn_2_5_decomposing_signals_in_components_matrix_factorization_problems|2.5. Decomposing signals in components (matrix factorization problems)|modules/decomposition.html|2.5.3. Dictionary Learning
+sklearn|Python|sklearn_2_5_decomposing_signals_in_components_matrix_factorization_problems|2.5. Decomposing signals in components (matrix factorization problems)|modules/decomposition.html|2.5.4. Factor Analysis  In
+sklearn|Python|sklearn_2_5_decomposing_signals_in_components_matrix_factorization_problems|2.5. Decomposing signals in components (matrix factorization problems)|modules/decomposition.html|2.5.5. Independent
+sklearn|Python|sklearn_2_5_decomposing_signals_in_components_matrix_factorization_problems|2.5. Decomposing signals in components (matrix factorization problems)|modules/decomposition.html|2.5.6. Non-negative
+sklearn|Python|sklearn_2_5_decomposing_signals_in_components_matrix_factorization_problems|2.5. Decomposing signals in components (matrix factorization problems)|modules/decomposition.html|2.5.7. Latent Dirichlet Allocation
+sklearn|Python|sklearn_2_6_covariance_estimation|2.6. Covariance estimation|modules/covariance.html|2.6.1. Empirical
+sklearn|Python|sklearn_2_6_covariance_estimation|2.6. Covariance estimation|modules/covariance.html|2.6.2. Shrunk Covariance
+sklearn|Python|sklearn_2_6_covariance_estimation|2.6. Covariance estimation|modules/covariance.html|2.6.3. Sparse
+sklearn|Python|sklearn_2_6_covariance_estimation|2.6. Covariance estimation|modules/covariance.html|2.6.4. Robust Covariance Estimation
+sklearn|Python|sklearn_2_7_novelty_and_outlier_detection|2.7. Novelty and Outlier Detection|modules/outlier_detection.html|2.7.1. Overview
+sklearn|Python|sklearn_2_7_novelty_and_outlier_detection|2.7. Novelty and Outlier Detection|modules/outlier_detection.html|2.7.2. Novelty Detection 
+sklearn|Python|sklearn_2_7_novelty_and_outlier_detection|2.7. Novelty and Outlier Detection|modules/outlier_detection.html|2.7.3. Outlier Detection 
+sklearn|Python|sklearn_2_7_novelty_and_outlier_detection|2.7. Novelty and Outlier Detection|modules/outlier_detection.html|2.7.4. Novelty
+sklearn|Python|sklearn_2_8_density_estimation|2.8. Density Estimation|modules/density.html|2.8.1. Density Estimation
+sklearn|Python|sklearn_2_8_density_estimation|2.8. Density Estimation|modules/density.html|2.8.2. Kernel Density Estimation
+sklearn|Python|sklearn_2_9_neural_network_models_unsupervised|2.9. Neural network models (unsupervised)|modules/neural_networks_unsupervised.html|2.9.1. Restricted Boltzmann
+sklearn|Python|sklearn_3_1_cross-validation_evaluating_estimator_performance|3.1. Cross-validation: evaluating estimator performance|modules/cross_validation.html|3.1.1. Computing
+sklearn|Python|sklearn_3_1_cross-validation_evaluating_estimator_performance|3.1. Cross-validation: evaluating estimator performance|modules/cross_validation.html|3.1.2. Cross
+sklearn|Python|sklearn_3_1_cross-validation_evaluating_estimator_performance|3.1. Cross-validation: evaluating estimator performance|modules/cross_validation.html|3.1.3. A
+sklearn|Python|sklearn_3_1_cross-validation_evaluating_estimator_performance|3.1. Cross-validation: evaluating estimator performance|modules/cross_validation.html|3.1.4. Cross
+sklearn|Python|sklearn_3_2_tuning_the_hyper-parameters_of_an_estimator|3.2. Tuning the hyper-parameters of an estimator|modules/grid_search.html|3.2.1. Exhaustive Grid Search
+sklearn|Python|sklearn_3_2_tuning_the_hyper-parameters_of_an_estimator|3.2. Tuning the hyper-parameters of an estimator|modules/grid_search.html|3.2.2. Randomized Parameter Optimization
+sklearn|Python|sklearn_3_2_tuning_the_hyper-parameters_of_an_estimator|3.2. Tuning the hyper-parameters of an estimator|modules/grid_search.html|3.2.3. Tips
+sklearn|Python|sklearn_3_2_tuning_the_hyper-parameters_of_an_estimator|3.2. Tuning the hyper-parameters of an estimator|modules/grid_search.html|3.2.4. Alternatives
+sklearn|Python|sklearn_3_3_metrics_and_scoring_quantifying_the_quality_of_predictions|3.3. Metrics and scoring: quantifying the quality of predictions|modules/model_evaluation.html|3.3.1. The
+sklearn|Python|sklearn_3_3_metrics_and_scoring_quantifying_the_quality_of_predictions|3.3. Metrics and scoring: quantifying the quality of predictions|modules/model_evaluation.html|3.3.2. Classification
+sklearn|Python|sklearn_3_3_metrics_and_scoring_quantifying_the_quality_of_predictions|3.3. Metrics and scoring: quantifying the quality of predictions|modules/model_evaluation.html|3.3.3. Multilabel
+sklearn|Python|sklearn_3_3_metrics_and_scoring_quantifying_the_quality_of_predictions|3.3. Metrics and scoring: quantifying the quality of predictions|modules/model_evaluation.html|3.3.4. Regression
+sklearn|Python|sklearn_3_3_metrics_and_scoring_quantifying_the_quality_of_predictions|3.3. Metrics and scoring: quantifying the quality of predictions|modules/model_evaluation.html|3.3.5. Clustering
+sklearn|Python|sklearn_3_3_metrics_and_scoring_quantifying_the_quality_of_predictions|3.3. Metrics and scoring: quantifying the quality of predictions|modules/model_evaluation.html|3.3.6. Dummy
+sklearn|Python|sklearn_3_4_model_persistence|3.4. Model persistence|modules/model_persistence.html|3.4.1. Persistence
+sklearn|Python|sklearn_3_4_model_persistence|3.4. Model persistence|modules/model_persistence.html|3.4.2. Security
+sklearn|Python|sklearn_3_5_validation_curves_plotting_scores_to_evaluate_models|3.5. Validation curves: plotting scores to evaluate models|modules/learning_curve.html|3.5.1. Validation
+sklearn|Python|sklearn_3_5_validation_curves_plotting_scores_to_evaluate_models|3.5. Validation curves: plotting scores to evaluate models|modules/learning_curve.html|3.5.2. Learning
+sklearn|Python|sklearn_4_1_partial_dependence_plots|4.1. Partial dependence plots|modules/partial_dependence.html|4.1.1. Mathematical Definition 
+sklearn|Python|sklearn_4_1_partial_dependence_plots|4.1. Partial dependence plots|modules/partial_dependence.html|4.1.2. Computation
+sklearn|Python|sklearn_4_2_permutation_feature_importance|4.2. Permutation feature importance|modules/permutation_importance.html|4.2.1. Outline
+sklearn|Python|sklearn_4_2_permutation_feature_importance|4.2. Permutation feature importance|modules/permutation_importance.html|4.2.2. Relation
+sklearn|Python|sklearn_4_2_permutation_feature_importance|4.2. Permutation feature importance|modules/permutation_importance.html|4.2.3. Misleading
+sklearn|Python|sklearn_5_1_available_plotting_utilities|5.1. Available Plotting Utilities|visualizations.html#available-plotting-utilities|5.1. Available Plotting Utilities
+sklearn|Python|sklearn_6_1_pipelines_and_composite_estimators|6.1. Pipelines and composite estimators|modules/compose.html|6.1.1. Pipeline
+sklearn|Python|sklearn_6_1_pipelines_and_composite_estimators|6.1. Pipelines and composite estimators|modules/compose.html|6.1.2. Transforming
+sklearn|Python|sklearn_6_1_pipelines_and_composite_estimators|6.1. Pipelines and composite estimators|modules/compose.html|6.1.3. FeatureUnion
+sklearn|Python|sklearn_6_1_pipelines_and_composite_estimators|6.1. Pipelines and composite estimators|modules/compose.html|6.1.4. ColumnTransformer
+sklearn|Python|sklearn_6_1_pipelines_and_composite_estimators|6.1. Pipelines and composite estimators|modules/compose.html|6.1.5. Visualizing Composite Estimators
+sklearn|Python|sklearn_6_2_feature_extraction|6.2. Feature extraction|modules/feature_extraction.html|6.2.1. Loading
+sklearn|Python|sklearn_6_2_feature_extraction|6.2. Feature extraction|modules/feature_extraction.html|6.2.2. Feature
+sklearn|Python|sklearn_6_2_feature_extraction|6.2. Feature extraction|modules/feature_extraction.html|6.2.3. Text
+sklearn|Python|sklearn_6_2_feature_extraction|6.2. Feature extraction|modules/feature_extraction.html|6.2.4. Image
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.1. Standardization
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.2. Non-linear
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.3. Normalization  Normalization
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.4. Encoding
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.5. Discretization  Discretization
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.6. Imputation
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.7. Generating
+sklearn|Python|sklearn_6_3_preprocessing_data|6.3. Preprocessing data|modules/preprocessing.html|6.3.8. Custom
+sklearn|Python|sklearn_6_4_imputation_of_missing_values|6.4. Imputation of missing values|modules/impute.html|6.4.1. Univariate
+sklearn|Python|sklearn_6_4_imputation_of_missing_values|6.4. Imputation of missing values|modules/impute.html|6.4.2. Univariate
+sklearn|Python|sklearn_6_4_imputation_of_missing_values|6.4. Imputation of missing values|modules/impute.html|6.4.3. Multivariate
+sklearn|Python|sklearn_6_4_imputation_of_missing_values|6.4. Imputation of missing values|modules/impute.html|6.4.4. References
+sklearn|Python|sklearn_6_4_imputation_of_missing_values|6.4. Imputation of missing values|modules/impute.html|6.4.5. Nearest
+sklearn|Python|sklearn_6_4_imputation_of_missing_values|6.4. Imputation of missing values|modules/impute.html|6.4.6. Marking
+sklearn|Python|sklearn_6_5_unsupervised_dimensionality_reduction|6.5. Unsupervised dimensionality reduction|modules/unsupervised_reduction.html|6.5.1. PCA
+sklearn|Python|sklearn_6_5_unsupervised_dimensionality_reduction|6.5. Unsupervised dimensionality reduction|modules/unsupervised_reduction.html|6.5.2. Random
+sklearn|Python|sklearn_6_5_unsupervised_dimensionality_reduction|6.5. Unsupervised dimensionality reduction|modules/unsupervised_reduction.html|6.5.3. Feature
+sklearn|Python|sklearn_6_6_random_projection|6.6. Random Projection|modules/random_projection.html|6.6.1. The Johnson-Lindenstrauss lemma
+sklearn|Python|sklearn_6_6_random_projection|6.6. Random Projection|modules/random_projection.html|6.6.2. Gaussian
+sklearn|Python|sklearn_6_6_random_projection|6.6. Random Projection|modules/random_projection.html|6.6.3. Sparse
+sklearn|Python|sklearn_6_7_kernel_approximation|6.7. Kernel Approximation|modules/kernel_approximation.html|6.7.1. Nystroem Method
+sklearn|Python|sklearn_6_7_kernel_approximation|6.7. Kernel Approximation|modules/kernel_approximation.html|6.7.2. Radial Basis Function
+sklearn|Python|sklearn_6_7_kernel_approximation|6.7. Kernel Approximation|modules/kernel_approximation.html|6.7.3. Additive Chi Squared
+sklearn|Python|sklearn_6_7_kernel_approximation|6.7. Kernel Approximation|modules/kernel_approximation.html|6.7.4. Skewed Chi Squared
+sklearn|Python|sklearn_6_7_kernel_approximation|6.7. Kernel Approximation|modules/kernel_approximation.html|6.7.5. Mathematical Details 
+sklearn|Python|sklearn_6_8_pairwise_metrics_affinities_and_kernels|6.8. Pairwise metrics, Affinities and Kernels|modules/metrics.html|6.8.1. Cosine
+sklearn|Python|sklearn_6_8_pairwise_metrics_affinities_and_kernels|6.8. Pairwise metrics, Affinities and Kernels|modules/metrics.html|6.8.2. Linear
+sklearn|Python|sklearn_6_8_pairwise_metrics_affinities_and_kernels|6.8. Pairwise metrics, Affinities and Kernels|modules/metrics.html|6.8.3. Polynomial
+sklearn|Python|sklearn_6_8_pairwise_metrics_affinities_and_kernels|6.8. Pairwise metrics, Affinities and Kernels|modules/metrics.html|6.8.4. Sigmoid
+sklearn|Python|sklearn_6_8_pairwise_metrics_affinities_and_kernels|6.8. Pairwise metrics, Affinities and Kernels|modules/metrics.html|6.8.5. RBF
+sklearn|Python|sklearn_6_8_pairwise_metrics_affinities_and_kernels|6.8. Pairwise metrics, Affinities and Kernels|modules/metrics.html|6.8.6. Laplacian
+sklearn|Python|sklearn_6_8_pairwise_metrics_affinities_and_kernels|6.8. Pairwise metrics, Affinities and Kernels|modules/metrics.html|6.8.7. Chi-squared
+sklearn|Python|sklearn_6_9_transforming_the_prediction_target_y|6.9. Transforming the prediction target (y)|modules/preprocessing_targets.html|6.9.1. Label
+sklearn|Python|sklearn_6_9_transforming_the_prediction_target_y|6.9. Transforming the prediction target (y)|modules/preprocessing_targets.html|6.9.2. Label
+sklearn|Python|sklearn_7_1_general_dataset_api|7.1. General dataset API|datasets/index.html#general-dataset-api|7.1. General
+sklearn|Python|sklearn_7_1_general_dataset_api|7.1. General dataset API|datasets/index.html#general-dataset-api|7.2. Toy
+sklearn|Python|sklearn_7_1_general_dataset_api|7.1. General dataset API|datasets/index.html#general-dataset-api|7.3. Real
+sklearn|Python|sklearn_7_1_general_dataset_api|7.1. General dataset API|datasets/index.html#general-dataset-api|7.4. Generated
+sklearn|Python|sklearn_7_1_general_dataset_api|7.1. General dataset API|datasets/index.html#general-dataset-api|7.5. Loading
+sklearn|Python|sklearn_7_2_toy_datasets|7.2. Toy datasets|datasets/index.html#toy-datasets|7.1. General
+sklearn|Python|sklearn_7_2_toy_datasets|7.2. Toy datasets|datasets/index.html#toy-datasets|7.2. Toy
+sklearn|Python|sklearn_7_2_toy_datasets|7.2. Toy datasets|datasets/index.html#toy-datasets|7.3. Real
+sklearn|Python|sklearn_7_2_toy_datasets|7.2. Toy datasets|datasets/index.html#toy-datasets|7.4. Generated
+sklearn|Python|sklearn_7_2_toy_datasets|7.2. Toy datasets|datasets/index.html#toy-datasets|7.5. Loading
+sklearn|Python|sklearn_7_3_real_world_datasets|7.3. Real world datasets|datasets/index.html#real-world-datasets|7.1. General
+sklearn|Python|sklearn_7_3_real_world_datasets|7.3. Real world datasets|datasets/index.html#real-world-datasets|7.2. Toy
+sklearn|Python|sklearn_7_3_real_world_datasets|7.3. Real world datasets|datasets/index.html#real-world-datasets|7.3. Real
+sklearn|Python|sklearn_7_3_real_world_datasets|7.3. Real world datasets|datasets/index.html#real-world-datasets|7.4. Generated
+sklearn|Python|sklearn_7_3_real_world_datasets|7.3. Real world datasets|datasets/index.html#real-world-datasets|7.5. Loading
+sklearn|Python|sklearn_7_4_generated_datasets|7.4. Generated datasets|datasets/index.html#generated-datasets|7.1. General
+sklearn|Python|sklearn_7_4_generated_datasets|7.4. Generated datasets|datasets/index.html#generated-datasets|7.2. Toy
+sklearn|Python|sklearn_7_4_generated_datasets|7.4. Generated datasets|datasets/index.html#generated-datasets|7.3. Real
+sklearn|Python|sklearn_7_4_generated_datasets|7.4. Generated datasets|datasets/index.html#generated-datasets|7.4. Generated
+sklearn|Python|sklearn_7_4_generated_datasets|7.4. Generated datasets|datasets/index.html#generated-datasets|7.5. Loading
+sklearn|Python|sklearn_7_5_loading_other_datasets|7.5. Loading other datasets|datasets/index.html#loading-other-datasets|7.1. General
+sklearn|Python|sklearn_7_5_loading_other_datasets|7.5. Loading other datasets|datasets/index.html#loading-other-datasets|7.2. Toy
+sklearn|Python|sklearn_7_5_loading_other_datasets|7.5. Loading other datasets|datasets/index.html#loading-other-datasets|7.3. Real
+sklearn|Python|sklearn_7_5_loading_other_datasets|7.5. Loading other datasets|datasets/index.html#loading-other-datasets|7.4. Generated
+sklearn|Python|sklearn_7_5_loading_other_datasets|7.5. Loading other datasets|datasets/index.html#loading-other-datasets|7.5. Loading
+sklearn|Python|sklearn_8_1_strategies_to_scale_computationally_bigger_data|8.1. Strategies to scale computationally: bigger data|modules/computing.html#strategies-to-scale-computationally-bigger-data|8.1. Strategies
+sklearn|Python|sklearn_8_1_strategies_to_scale_computationally_bigger_data|8.1. Strategies to scale computationally: bigger data|modules/computing.html#strategies-to-scale-computationally-bigger-data|8.2. Computational Performance 
+sklearn|Python|sklearn_8_1_strategies_to_scale_computationally_bigger_data|8.1. Strategies to scale computationally: bigger data|modules/computing.html#strategies-to-scale-computationally-bigger-data|8.3. Parallelism
+sklearn|Python|sklearn_8_2_computational_performance|8.2. Computational Performance|modules/computing.html#computational-performance|8.1. Strategies
+sklearn|Python|sklearn_8_2_computational_performance|8.2. Computational Performance|modules/computing.html#computational-performance|8.2. Computational Performance 
+sklearn|Python|sklearn_8_2_computational_performance|8.2. Computational Performance|modules/computing.html#computational-performance|8.3. Parallelism
+sklearn|Python|sklearn_8_3_parallelism_resource_management_and_configuration|8.3. Parallelism, resource management, and configuration|modules/computing.html#parallelism-resource-management-and-configuration|8.1. Strategies
+sklearn|Python|sklearn_8_3_parallelism_resource_management_and_configuration|8.3. Parallelism, resource management, and configuration|modules/computing.html#parallelism-resource-management-and-configuration|8.2. Computational Performance 
+sklearn|Python|sklearn_8_3_parallelism_resource_management_and_configuration|8.3. Parallelism, resource management, and configuration|modules/computing.html#parallelism-resource-management-and-configuration|8.3. Parallelism
