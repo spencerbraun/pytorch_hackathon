@@ -21,13 +21,12 @@ external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 colors = {"background": "#E0E0E2", "text": "#050949"}
 
-with open("tsne.pkl", 'rb') as f:
+with open("tsne_labeled.pkl", 'rb') as f:
     tsne = pickle.load(f)
-tsne_df = pd.DataFrame(tsne, columns=['x', 'y'])
 
 tsne_fig = px.scatter(
-    tsne_df, x="x", y="y",
-    # size="population", color="continent", hover_name="country",
+    tsne, x="x", y="y",
+    color="Package", hover_name="PageName",
     size_max=60)
 
 with open("recommendation_table.pkl", 'rb') as f:
@@ -42,9 +41,6 @@ table_cols = [
     'Similarity Score',
     'Link'
 ]
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 app.layout = html.Div(children=[
     html.H1(
@@ -57,11 +53,16 @@ app.layout = html.Div(children=[
 
     dcc.Markdown('''
 
-    # This is an <h1> tag
+    Starting to work in a new machine learning framework or package can be confusing. 
+    Instead of wading into the documentation from the beginning, 
+    it can be helpful to find a familiar use case. The documentation for sklearn, caret, numpy, and
+    scipy were used to train a doc2vec model implemented in pytorch, giving each module of the documentation
+    a dense embedding vector representation. Pairwise similarities between vectors were computed and ranked,
+    giving the closest match to each section of the documentation. Below is a [t-SNE](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding) 
+    low dimensional representation of the embedding vectors and a lookup table for the most similar documentation sections for the one selected. 
 
-    ## This is an <h2> tag
-
-    ###### This is an <h6> tag
+    Written by [Spencer Braun](https://github.com/spencerbraun). 
+    To view the code used in this project, click [here](https://github.com/spencerbraun/pytorch_hackathon).
     ''',
     style={
             'textAlign': 'center',
